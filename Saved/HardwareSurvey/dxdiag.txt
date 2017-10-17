@@ -1,28 +1,7 @@
 ------------------
 System Information
 ------------------
-      Time of this report: 10/5/2017, 13:25:10
-             Machine name: NM2-705-25GAM
-               Machine Id: {F3981B40-A9CD-455D-B627-B100985732C1}
-         Operating System: Windows 10 Education 64-bit (10.0, Build 15063) (15063.rs2_release.170317-1834)
-                 Language: English (Regional Setting: English)
-      System Manufacturer: Alienware
-             System Model: Alienware Aurora R6
-                     BIOS: 1.0.7
-                Processor: Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz (8 CPUs), ~3.6GHz
-                   Memory: 65536MB RAM
-      Available OS Memory: 65436MB RAM
-                Page File: 6973MB used, 68190MB available
-              Windows Dir: C:\Windows
-          DirectX Version: DirectX 12
-      DX Setup Parameters: Not found
-         User DPI Setting: Using System DPI
-       System DPI Setting: 96 DPI (100 percent)
-          DWM DPI Scaling: Disabled
-                 Miracast: Available, with HDCP
-Microsoft Graphics Hybrid: Not Supported
-           DxDiag Version: 10.00.15063.0000 64bit Unicode
-  DxDiag Previously: Crashed in Direct3D (stage 2). Re-running DxDiag with "dontskip" command line parameter or choosing not to bypass information gathering when prompted might result in DxDiag successfully obtaining this information
+  DxDiag Previously: Crashed in system information (stage 1). Re-running DxDiag with "dontskip" command line parameter or choosing not to bypass information gathering when prompted might result in DxDiag successfully obtaining this information
 
 ------------
 DxDiag Notes
@@ -33,17 +12,6 @@ DxDiag Notes
         Sound Tab 1: No problems found.
         Sound Tab 2: No problems found.
           Input Tab: No problems found.
-
---------------------
-DirectX Debug Levels
---------------------
-Direct3D:    0/4 (retail)
-DirectDraw:  0/4 (retail)
-DirectInput: 0/5 (retail)
-DirectMusic: 0/5 (retail)
-DirectPlay:  0/9 (retail)
-DirectSound: 0/5 (retail)
-DirectShow:  0/6 (retail)
 
 ---------------
 Display Devices
@@ -57,20 +25,20 @@ Display Devices
       Device Status: 0180200A [DN_DRIVER_LOADED|DN_STARTED|DN_DISABLEABLE|DN_NT_ENUMERATOR|DN_NT_DRIVER] 
 Device Problem Code: No Problem
 Driver Problem Code: Unknown
-     Display Memory: Unknown
-   Dedicated Memory: n/a
-      Shared Memory: n/a
+     Display Memory: 43835 MB
+   Dedicated Memory: 11118 MB
+      Shared Memory: 32717 MB
        Current Mode: 1920 x 1080 (32 bit) (60Hz)
        Monitor Name: Generic PnP Monitor
-      Monitor Model: 
-         Monitor Id: 
-        Native Mode: 
-        Output Type: 
+      Monitor Model: DELL U2417H
+         Monitor Id: DEL40E7
+        Native Mode: 1920 x 1080(p) (60.000Hz)
+        Output Type: Displayport External
         Driver Name: C:\Windows\System32\DriverStore\FileRepository\nvddi.inf_amd64_4d6d61f42568bcce\nvldumdx.dll,C:\Windows\System32\DriverStore\FileRepository\nvddi.inf_amd64_4d6d61f42568bcce\nvldumdx.dll,C:\Windows\System32\DriverStore\FileRepository\nvddi.inf_amd64_4d6d61f42568bcce\nvldumdx.dll,C:\Windows\System32\DriverStore\FileRepository\nvddi.inf_amd64_4d6d61f42568bcce\nvldumdx.dll
-Driver File Version: Unknown (Unknown)
+Driver File Version: 22.21.0013.8541 (English)
      Driver Version: 22.21.13.8541
-        DDI Version: Unknown
-     Feature Levels: Unknown
+        DDI Version: 12
+     Feature Levels: 12_1,12_0,11_1,11_0,10_1,10_0,9_3,9_2,9_1
        Driver Model: WDDM 2.2
 Graphics Preemption: Pixel
  Compute Preemption: Dispatch
@@ -78,28 +46,67 @@ Graphics Preemption: Pixel
 Hybrid Graphics GPU: Not Supported
      Power P-states: Not Supported
   Driver Attributes: Final Retail
-   Driver Date/Size: Unknown, 0 bytes
-        WHQL Logo'd: n/a
-    WHQL Date Stamp: n/a
-  Device Identifier: Unknown
+   Driver Date/Size: 8/20/2017 5:00:00 PM, 893272 bytes
+        WHQL Logo'd: Yes
+    WHQL Date Stamp: Unknown
+  Device Identifier: {D7B71E3E-5846-11CF-C552-0D161BC2DB35}
           Vendor ID: 0x10DE
           Device ID: 0x1B06
           SubSys ID: 0x36001028
         Revision ID: 0x00A1
  Driver Strong Name: oem33.inf:0f066de3bc14d6b4:Section062:22.21.13.8541:pci\ven_10de&dev_1b06&subsys_36001028
      Rank Of Driver: 00D10001
-        Video Accel: Unknown
-        DXVA2 Modes: Unknown
-      Deinterlace Caps: n/a
-       D3D9 Overlay: Unknown
-            DXVA-HD: Unknown
-       DDraw Status: Disabled
-         D3D Status: Not Available
-         AGP Status: Not Available
-           MPO Caps: Unknown
-        MPO Stretch: Unknown
-    MPO Media Hints: Unknown
-        MPO Formats: Unknown
+        Video Accel: 
+        DXVA2 Modes: DXVA2_ModeMPEG2_VLD  DXVA2_ModeVC1_D2010  DXVA2_ModeVC1_VLD  DXVA2_ModeH264_VLD_Stereo_Progressive_NoFGT  DXVA2_ModeH264_VLD_Stereo_NoFGT  DXVA2_ModeH264_VLD_NoFGT  DXVA2_ModeHEVC_VLD_Main  DXVA2_ModeHEVC_VLD_Main10  DXVA2_ModeMPEG4pt2_VLD_Simple  DXVA2_ModeMPEG4pt2_VLD_AdvSimple_NoGMC  
+   Deinterlace Caps: {6CB69578-7617-4637-91E5-1C02DB810285}: Format(In/Out)=(YUY2,YUY2) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY DeinterlaceTech_PixelAdaptive 
+                     {F9F19DA5-3B09-4B2F-9D89-C64753E3EAAB}: Format(In/Out)=(YUY2,YUY2) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY 
+                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(YUY2,YUY2) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY 
+                     {335AA36E-7884-43A4-9C91-7F87FAF3E37E}: Format(In/Out)=(YUY2,YUY2) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY DeinterlaceTech_BOBVerticalStretch 
+                     {6CB69578-7617-4637-91E5-1C02DB810285}: Format(In/Out)=(UYVY,UYVY) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY DeinterlaceTech_PixelAdaptive 
+                     {F9F19DA5-3B09-4B2F-9D89-C64753E3EAAB}: Format(In/Out)=(UYVY,UYVY) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY 
+                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(UYVY,UYVY) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY 
+                     {335AA36E-7884-43A4-9C91-7F87FAF3E37E}: Format(In/Out)=(UYVY,UYVY) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY DeinterlaceTech_BOBVerticalStretch 
+                     {6CB69578-7617-4637-91E5-1C02DB810285}: Format(In/Out)=(YV12,0x32315659) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY DeinterlaceTech_PixelAdaptive 
+                     {F9F19DA5-3B09-4B2F-9D89-C64753E3EAAB}: Format(In/Out)=(YV12,0x32315659) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY 
+                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(YV12,0x32315659) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY 
+                     {335AA36E-7884-43A4-9C91-7F87FAF3E37E}: Format(In/Out)=(YV12,0x32315659) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY DeinterlaceTech_BOBVerticalStretch 
+                     {6CB69578-7617-4637-91E5-1C02DB810285}: Format(In/Out)=(NV12,0x3231564e) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY DeinterlaceTech_PixelAdaptive 
+                     {F9F19DA5-3B09-4B2F-9D89-C64753E3EAAB}: Format(In/Out)=(NV12,0x3231564e) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY 
+                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(NV12,0x3231564e) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY 
+                     {335AA36E-7884-43A4-9C91-7F87FAF3E37E}: Format(In/Out)=(NV12,0x3231564e) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY DeinterlaceTech_BOBVerticalStretch 
+                     {6CB69578-7617-4637-91E5-1C02DB810285}: Format(In/Out)=(IMC1,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {F9F19DA5-3B09-4B2F-9D89-C64753E3EAAB}: Format(In/Out)=(IMC1,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(IMC1,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {335AA36E-7884-43A4-9C91-7F87FAF3E37E}: Format(In/Out)=(IMC1,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {6CB69578-7617-4637-91E5-1C02DB810285}: Format(In/Out)=(IMC2,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {F9F19DA5-3B09-4B2F-9D89-C64753E3EAAB}: Format(In/Out)=(IMC2,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(IMC2,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {335AA36E-7884-43A4-9C91-7F87FAF3E37E}: Format(In/Out)=(IMC2,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {6CB69578-7617-4637-91E5-1C02DB810285}: Format(In/Out)=(IMC3,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {F9F19DA5-3B09-4B2F-9D89-C64753E3EAAB}: Format(In/Out)=(IMC3,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(IMC3,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {335AA36E-7884-43A4-9C91-7F87FAF3E37E}: Format(In/Out)=(IMC3,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {6CB69578-7617-4637-91E5-1C02DB810285}: Format(In/Out)=(IMC4,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {F9F19DA5-3B09-4B2F-9D89-C64753E3EAAB}: Format(In/Out)=(IMC4,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(IMC4,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {335AA36E-7884-43A4-9C91-7F87FAF3E37E}: Format(In/Out)=(IMC4,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {6CB69578-7617-4637-91E5-1C02DB810285}: Format(In/Out)=(S340,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {F9F19DA5-3B09-4B2F-9D89-C64753E3EAAB}: Format(In/Out)=(S340,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(S340,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {335AA36E-7884-43A4-9C91-7F87FAF3E37E}: Format(In/Out)=(S340,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {6CB69578-7617-4637-91E5-1C02DB810285}: Format(In/Out)=(S342,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {F9F19DA5-3B09-4B2F-9D89-C64753E3EAAB}: Format(In/Out)=(S342,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(S342,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {335AA36E-7884-43A4-9C91-7F87FAF3E37E}: Format(In/Out)=(S342,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+       D3D9 Overlay: Supported
+            DXVA-HD: Supported
+       DDraw Status: Enabled
+         D3D Status: Enabled
+         AGP Status: Enabled
+           MPO Caps: Not Supported
+        MPO Stretch: Not Supported
+    MPO Media Hints: Not Supported
+        MPO Formats: Not Supported
 
           Card name: NVIDIA GeForce GTX 1080 Ti
        Manufacturer: NVIDIA
@@ -110,20 +117,20 @@ Hybrid Graphics GPU: Not Supported
       Device Status: 0180200A [DN_DRIVER_LOADED|DN_STARTED|DN_DISABLEABLE|DN_NT_ENUMERATOR|DN_NT_DRIVER] 
 Device Problem Code: No Problem
 Driver Problem Code: Unknown
-     Display Memory: Unknown
-   Dedicated Memory: n/a
-      Shared Memory: n/a
+     Display Memory: 43835 MB
+   Dedicated Memory: 11118 MB
+      Shared Memory: 32717 MB
        Current Mode: 1920 x 1080 (32 bit) (60Hz)
        Monitor Name: Generic PnP Monitor
-      Monitor Model: 
-         Monitor Id: 
-        Native Mode: 
-        Output Type: 
+      Monitor Model: DELL U2417H
+         Monitor Id: DEL40E7
+        Native Mode: 1920 x 1080(p) (60.000Hz)
+        Output Type: Displayport External
         Driver Name: C:\Windows\System32\DriverStore\FileRepository\nvddi.inf_amd64_4d6d61f42568bcce\nvldumdx.dll,C:\Windows\System32\DriverStore\FileRepository\nvddi.inf_amd64_4d6d61f42568bcce\nvldumdx.dll,C:\Windows\System32\DriverStore\FileRepository\nvddi.inf_amd64_4d6d61f42568bcce\nvldumdx.dll,C:\Windows\System32\DriverStore\FileRepository\nvddi.inf_amd64_4d6d61f42568bcce\nvldumdx.dll
-Driver File Version: Unknown (Unknown)
+Driver File Version: 22.21.0013.8541 (English)
      Driver Version: 22.21.13.8541
-        DDI Version: Unknown
-     Feature Levels: Unknown
+        DDI Version: 12
+     Feature Levels: 12_1,12_0,11_1,11_0,10_1,10_0,9_3,9_2,9_1
        Driver Model: WDDM 2.2
 Graphics Preemption: Pixel
  Compute Preemption: Dispatch
@@ -131,28 +138,67 @@ Graphics Preemption: Pixel
 Hybrid Graphics GPU: Not Supported
      Power P-states: Not Supported
   Driver Attributes: Final Retail
-   Driver Date/Size: Unknown, 0 bytes
-        WHQL Logo'd: n/a
-    WHQL Date Stamp: n/a
-  Device Identifier: Unknown
+   Driver Date/Size: 8/20/2017 5:00:00 PM, 893272 bytes
+        WHQL Logo'd: Yes
+    WHQL Date Stamp: Unknown
+  Device Identifier: {D7B71E3E-5846-11CF-C552-0D161BC2DB35}
           Vendor ID: 0x10DE
           Device ID: 0x1B06
           SubSys ID: 0x36001028
         Revision ID: 0x00A1
  Driver Strong Name: oem33.inf:0f066de3bc14d6b4:Section062:22.21.13.8541:pci\ven_10de&dev_1b06&subsys_36001028
      Rank Of Driver: 00D10001
-        Video Accel: Unknown
-        DXVA2 Modes: Unknown
-      Deinterlace Caps: n/a
-       D3D9 Overlay: Unknown
-            DXVA-HD: Unknown
-       DDraw Status: Disabled
-         D3D Status: Not Available
-         AGP Status: Not Available
-           MPO Caps: Unknown
-        MPO Stretch: Unknown
-    MPO Media Hints: Unknown
-        MPO Formats: Unknown
+        Video Accel: 
+        DXVA2 Modes: DXVA2_ModeMPEG2_VLD  DXVA2_ModeVC1_D2010  DXVA2_ModeVC1_VLD  DXVA2_ModeH264_VLD_Stereo_Progressive_NoFGT  DXVA2_ModeH264_VLD_Stereo_NoFGT  DXVA2_ModeH264_VLD_NoFGT  DXVA2_ModeHEVC_VLD_Main  DXVA2_ModeHEVC_VLD_Main10  DXVA2_ModeMPEG4pt2_VLD_Simple  DXVA2_ModeMPEG4pt2_VLD_AdvSimple_NoGMC  
+   Deinterlace Caps: {6CB69578-7617-4637-91E5-1C02DB810285}: Format(In/Out)=(YUY2,YUY2) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY DeinterlaceTech_PixelAdaptive 
+                     {F9F19DA5-3B09-4B2F-9D89-C64753E3EAAB}: Format(In/Out)=(YUY2,YUY2) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY 
+                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(YUY2,YUY2) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY 
+                     {335AA36E-7884-43A4-9C91-7F87FAF3E37E}: Format(In/Out)=(YUY2,YUY2) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY DeinterlaceTech_BOBVerticalStretch 
+                     {6CB69578-7617-4637-91E5-1C02DB810285}: Format(In/Out)=(UYVY,UYVY) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY DeinterlaceTech_PixelAdaptive 
+                     {F9F19DA5-3B09-4B2F-9D89-C64753E3EAAB}: Format(In/Out)=(UYVY,UYVY) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY 
+                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(UYVY,UYVY) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY 
+                     {335AA36E-7884-43A4-9C91-7F87FAF3E37E}: Format(In/Out)=(UYVY,UYVY) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY DeinterlaceTech_BOBVerticalStretch 
+                     {6CB69578-7617-4637-91E5-1C02DB810285}: Format(In/Out)=(YV12,0x32315659) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY DeinterlaceTech_PixelAdaptive 
+                     {F9F19DA5-3B09-4B2F-9D89-C64753E3EAAB}: Format(In/Out)=(YV12,0x32315659) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY 
+                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(YV12,0x32315659) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY 
+                     {335AA36E-7884-43A4-9C91-7F87FAF3E37E}: Format(In/Out)=(YV12,0x32315659) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY DeinterlaceTech_BOBVerticalStretch 
+                     {6CB69578-7617-4637-91E5-1C02DB810285}: Format(In/Out)=(NV12,0x3231564e) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY DeinterlaceTech_PixelAdaptive 
+                     {F9F19DA5-3B09-4B2F-9D89-C64753E3EAAB}: Format(In/Out)=(NV12,0x3231564e) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY 
+                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(NV12,0x3231564e) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY 
+                     {335AA36E-7884-43A4-9C91-7F87FAF3E37E}: Format(In/Out)=(NV12,0x3231564e) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY DeinterlaceTech_BOBVerticalStretch 
+                     {6CB69578-7617-4637-91E5-1C02DB810285}: Format(In/Out)=(IMC1,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {F9F19DA5-3B09-4B2F-9D89-C64753E3EAAB}: Format(In/Out)=(IMC1,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(IMC1,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {335AA36E-7884-43A4-9C91-7F87FAF3E37E}: Format(In/Out)=(IMC1,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {6CB69578-7617-4637-91E5-1C02DB810285}: Format(In/Out)=(IMC2,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {F9F19DA5-3B09-4B2F-9D89-C64753E3EAAB}: Format(In/Out)=(IMC2,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(IMC2,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {335AA36E-7884-43A4-9C91-7F87FAF3E37E}: Format(In/Out)=(IMC2,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {6CB69578-7617-4637-91E5-1C02DB810285}: Format(In/Out)=(IMC3,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {F9F19DA5-3B09-4B2F-9D89-C64753E3EAAB}: Format(In/Out)=(IMC3,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(IMC3,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {335AA36E-7884-43A4-9C91-7F87FAF3E37E}: Format(In/Out)=(IMC3,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {6CB69578-7617-4637-91E5-1C02DB810285}: Format(In/Out)=(IMC4,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {F9F19DA5-3B09-4B2F-9D89-C64753E3EAAB}: Format(In/Out)=(IMC4,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(IMC4,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {335AA36E-7884-43A4-9C91-7F87FAF3E37E}: Format(In/Out)=(IMC4,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {6CB69578-7617-4637-91E5-1C02DB810285}: Format(In/Out)=(S340,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {F9F19DA5-3B09-4B2F-9D89-C64753E3EAAB}: Format(In/Out)=(S340,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(S340,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {335AA36E-7884-43A4-9C91-7F87FAF3E37E}: Format(In/Out)=(S340,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {6CB69578-7617-4637-91E5-1C02DB810285}: Format(In/Out)=(S342,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {F9F19DA5-3B09-4B2F-9D89-C64753E3EAAB}: Format(In/Out)=(S342,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(S342,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {335AA36E-7884-43A4-9C91-7F87FAF3E37E}: Format(In/Out)=(S342,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+       D3D9 Overlay: Supported
+            DXVA-HD: Supported
+       DDraw Status: Enabled
+         D3D Status: Enabled
+         AGP Status: Enabled
+           MPO Caps: Not Supported
+        MPO Stretch: Not Supported
+    MPO Media Hints: Not Supported
+        MPO Formats: Not Supported
 
           Card name: Intel(R) HD Graphics 630
        Manufacturer: Intel Corporation
@@ -163,15 +209,15 @@ Hybrid Graphics GPU: Not Supported
       Device Status: 0180200A [DN_DRIVER_LOADED|DN_STARTED|DN_DISABLEABLE|DN_NT_ENUMERATOR|DN_NT_DRIVER] 
 Device Problem Code: No Problem
 Driver Problem Code: Unknown
-     Display Memory: Unknown
-   Dedicated Memory: n/a
-      Shared Memory: n/a
+     Display Memory: 32845 MB
+   Dedicated Memory: 128 MB
+      Shared Memory: 32717 MB
        Current Mode: Unknown
         Driver Name: C:\Windows\System32\DriverStore\FileRepository\ki119560.inf_amd64_5a492b6b44b20fba\igdumdim64.dll,C:\Windows\System32\DriverStore\FileRepository\ki119560.inf_amd64_5a492b6b44b20fba\igd10iumd64.dll,C:\Windows\System32\DriverStore\FileRepository\ki119560.inf_amd64_5a492b6b44b20fba\igd10iumd64.dll,C:\Windows\System32\DriverStore\FileRepository\ki119560.inf_amd64_5a492b6b44b20fba\igd12umd64.dll
-Driver File Version: Unknown (Unknown)
+Driver File Version: 21.20.0016.4550 (English)
      Driver Version: 21.20.16.4550
-        DDI Version: Unknown
-     Feature Levels: Unknown
+        DDI Version: 12
+     Feature Levels: 12_1,12_0,11_1,11_0,10_1,10_0,9_3,9_2,9_1
        Driver Model: WDDM 2.1
 Graphics Preemption: Triangle
  Compute Preemption: Thread
@@ -179,9 +225,9 @@ Graphics Preemption: Triangle
 Hybrid Graphics GPU: Integrated
      Power P-states: Not Supported
   Driver Attributes: Final Retail
-   Driver Date/Size: Unknown, 0 bytes
-        WHQL Logo'd: n/a
-    WHQL Date Stamp: n/a
+   Driver Date/Size: 11/10/2016 5:00:00 PM, 94208456 bytes
+        WHQL Logo'd: Yes
+    WHQL Date Stamp: Unknown
   Device Identifier: Unknown
           Vendor ID: 0x8086
           Device ID: 0x5912
@@ -190,46 +236,21 @@ Hybrid Graphics GPU: Integrated
  Driver Strong Name: oem3.inf:5f63e5341bf86c41:iKBLD_w10_DS:21.20.16.4550:pci\ven_8086&dev_5912&subsys_07db1028
      Rank Of Driver: 00D10001
         Video Accel: Unknown
-        DXVA2 Modes: Unknown
+        DXVA2 Modes: DXVA2_ModeMPEG2_VLD  DXVA2_ModeMPEG2_IDCT  DXVA2_ModeVC1_D2010  DXVA2_ModeWMV9_IDCT  DXVA2_ModeVC1_IDCT  DXVA2_ModeH264_VLD_NoFGT  DXVA2_ModeH264_VLD_Stereo_Progressive_NoFGT  DXVA2_ModeH264_VLD_Stereo_NoFGT  DXVA2_ModeH264_VLD_Multiview_NoFGT  DXVA2_ModeHEVC_VLD_Main  DXVA2_ModeHEVC_VLD_Main10  
       Deinterlace Caps: n/a
        D3D9 Overlay: Unknown
             DXVA-HD: Unknown
-       DDraw Status: Disabled
-         D3D Status: Not Available
-         AGP Status: Not Available
-           MPO Caps: Unknown
-        MPO Stretch: Unknown
-    MPO Media Hints: Unknown
-        MPO Formats: Unknown
+       DDraw Status: Enabled
+         D3D Status: Enabled
+         AGP Status: Enabled
+           MPO Caps: Not Supported
+        MPO Stretch: Not Supported
+    MPO Media Hints: Not Supported
+        MPO Formats: Not Supported
 
 -------------
 Sound Devices
 -------------
-            Description: DELL U2417H-0 (2- NVIDIA High Definition Audio)
- Default Sound Playback: Yes
- Default Voice Playback: Yes
-            Hardware ID: HDAUDIO\FUNC_01&VEN_10DE&DEV_0082&SUBSYS_10283600&REV_1001
-        Manufacturer ID: 1
-             Product ID: 100
-                   Type: WDM
-            Driver Name: nvhda64v.sys
-         Driver Version: 1.03.0034.0027 (English)
-      Driver Attributes: Final Retail
-            WHQL Logo'd: Yes
-          Date and Size: 6/25/2017 12:00:00 AM, 227408 bytes
-            Other Files: 
-        Driver Provider: NVIDIA Corporation
-         HW Accel Level: Basic
-              Cap Flags: 0xF1F
-    Min/Max Sample Rate: 100, 200000
-Static/Strm HW Mix Bufs: 1, 0
- Static/Strm HW 3D Bufs: 0, 0
-              HW Memory: 0
-       Voice Management: No
- EAX(tm) 2.0 Listen/Src: No, No
-   I3DL2(tm) Listen/Src: No, No
-Sensaura(tm) ZoomFX(tm): No
-
             Description: DELL U2417H-8 (2- NVIDIA High Definition Audio)
  Default Sound Playback: No
  Default Voice Playback: No
@@ -240,14 +261,39 @@ Sensaura(tm) ZoomFX(tm): No
             Driver Name: nvhda64v.sys
          Driver Version: 1.03.0034.0027 (English)
       Driver Attributes: Final Retail
-            WHQL Logo'd: Yes
+            WHQL Logo'd: n/a
           Date and Size: 6/25/2017 12:00:00 AM, 227408 bytes
             Other Files: 
         Driver Provider: NVIDIA Corporation
          HW Accel Level: Basic
-              Cap Flags: 0xF1F
-    Min/Max Sample Rate: 100, 200000
-Static/Strm HW Mix Bufs: 1, 0
+              Cap Flags: 0x0
+    Min/Max Sample Rate: 0, 0
+Static/Strm HW Mix Bufs: 0, 0
+ Static/Strm HW 3D Bufs: 0, 0
+              HW Memory: 0
+       Voice Management: No
+ EAX(tm) 2.0 Listen/Src: No, No
+   I3DL2(tm) Listen/Src: No, No
+Sensaura(tm) ZoomFX(tm): No
+
+            Description: DELL U2417H-0 (2- NVIDIA High Definition Audio)
+ Default Sound Playback: No
+ Default Voice Playback: No
+            Hardware ID: HDAUDIO\FUNC_01&VEN_10DE&DEV_0082&SUBSYS_10283600&REV_1001
+        Manufacturer ID: 1
+             Product ID: 100
+                   Type: WDM
+            Driver Name: nvhda64v.sys
+         Driver Version: 1.03.0034.0027 (English)
+      Driver Attributes: Final Retail
+            WHQL Logo'd: n/a
+          Date and Size: 6/25/2017 12:00:00 AM, 227408 bytes
+            Other Files: 
+        Driver Provider: NVIDIA Corporation
+         HW Accel Level: Basic
+              Cap Flags: 0x0
+    Min/Max Sample Rate: 0, 0
+Static/Strm HW Mix Bufs: 0, 0
  Static/Strm HW 3D Bufs: 0, 0
               HW Memory: 0
        Voice Management: No
@@ -283,16 +329,16 @@ Vendor/Product ID: n/a
 Vendor/Product ID: 0x04D8, 0x0B29
         FF Driver: n/a
 
-      Device Name: U2417H_0B29_15083001
-         Attached: 1
-    Controller ID: 0x0
-Vendor/Product ID: 0x04D8, 0x0B29
-        FF Driver: n/a
-
       Device Name: USB Keyboard
          Attached: 1
     Controller ID: 0x0
 Vendor/Product ID: 0x046D, 0xC31C
+        FF Driver: n/a
+
+      Device Name: U2417H_0B29_15083001
+         Attached: 1
+    Controller ID: 0x0
+Vendor/Product ID: 0x04D8, 0x0B29
         FF Driver: n/a
 
       Device Name: USB Keyboard
@@ -318,32 +364,16 @@ USB Devices
 | Service: USBHUB3
 | Driver: USBHUB3.SYS, 7/27/2017 22:15:43, 554400 bytes
 | 
-+-+ USB Input Device
-| | Vendor/Product ID: 0x046D, 0xC077
-| | Location: Port_#0005.Hub_#0001
-| | Matching Device ID: USB\Class_03&SubClass_01
-| | Service: HidUsb
-| | Driver: hidusb.sys, 3/18/2017 13:56:35, 40960 bytes
-| | Driver: hidclass.sys, 3/18/2017 13:56:35, 180736 bytes
-| | Driver: hidparse.sys, 3/18/2017 13:56:35, 40960 bytes
-| | 
-| +-+ HID-compliant mouse
-| | | Vendor/Product ID: 0x046D, 0xC077
-| | | Matching Device ID: HID_DEVICE_SYSTEM_MOUSE
-| | | Service: mouhid
-| | | Driver: mouhid.sys, 3/18/2017 13:56:35, 33280 bytes
-| | | Driver: mouclass.sys, 3/18/2017 13:56:35, 60320 bytes
-| | 
 +-+ USB Composite Device
 | | Vendor/Product ID: 0x046D, 0xC31C
-| | Location: Port_#0006.Hub_#0001
+| | Location: Port_#0001.Hub_#0001
 | | Matching Device ID: USB\COMPOSITE
 | | Service: usbccgp
 | | Driver: usbccgp.sys, 3/18/2017 13:56:35, 173984 bytes
 | | 
 | +-+ USB Input Device
 | | | Vendor/Product ID: 0x046D, 0xC31C
-| | | Location: 0000.0014.0000.006.000.000.000.000.000
+| | | Location: 0000.0014.0000.001.000.000.000.000.000
 | | | Matching Device ID: USB\Class_03&SubClass_01
 | | | Service: HidUsb
 | | | Driver: hidusb.sys, 3/18/2017 13:56:35, 40960 bytes
@@ -356,6 +386,22 @@ USB Devices
 | | | | Service: kbdhid
 | | | | Driver: kbdhid.sys, 3/18/2017 13:56:35, 40448 bytes
 | | | | Driver: kbdclass.sys, 3/18/2017 13:56:35, 64416 bytes
+| | 
++-+ USB Input Device
+| | Vendor/Product ID: 0x046D, 0xC077
+| | Location: Port_#0003.Hub_#0001
+| | Matching Device ID: USB\Class_03&SubClass_01
+| | Service: HidUsb
+| | Driver: hidusb.sys, 3/18/2017 13:56:35, 40960 bytes
+| | Driver: hidclass.sys, 3/18/2017 13:56:35, 180736 bytes
+| | Driver: hidparse.sys, 3/18/2017 13:56:35, 40960 bytes
+| | 
+| +-+ HID-compliant mouse
+| | | Vendor/Product ID: 0x046D, 0xC077
+| | | Matching Device ID: HID_DEVICE_SYSTEM_MOUSE
+| | | Service: mouhid
+| | | Driver: mouhid.sys, 3/18/2017 13:56:35, 33280 bytes
+| | | Driver: mouclass.sys, 3/18/2017 13:56:35, 60320 bytes
 
 ----------------
 Gameport Devices
@@ -364,351 +410,6 @@ Gameport Devices
 ------------
 PS/2 Devices
 ------------
-
-------------------------
-Disk & DVD/CD-ROM Drives
-------------------------
-      Drive: C:
- Free Space: 760.9 GB
-Total Space: 976.5 GB
-File System: NTFS
-      Model: NVMe THNSN51T02DUK NV
-
-      Drive: D:
- Free Space: 1865.0 GB
-Total Space: 1907.7 GB
-File System: NTFS
-      Model: ST2000DM001-1ER164
-
---------------
-System Devices
---------------
-     Name: Intel(R) 200 Series Chipset Family PCI Express Root Port #4 - A293
-Device ID: PCI\VEN_8086&DEV_A293&SUBSYS_07DB1028&REV_F0\3&11583659&1&E3
-   Driver: C:\Windows\system32\DRIVERS\pci.sys, 10.00.15063.0000 (English), 3/18/2017 13:56:26, 353696 bytes
-
-     Name: Intel(R) Management Engine Interface 
-Device ID: PCI\VEN_8086&DEV_A2BA&SUBSYS_07DB1028&REV_00\3&11583659&1&B0
-   Driver: C:\Windows\system32\DRIVERS\TeeDriverW8x64.sys, 11.07.0000.1011 (English), 3/19/2017 07:55:54, 204920 bytes
-
-     Name: NVIDIA GeForce GTX 1080 Ti
-Device ID: PCI\VEN_10DE&DEV_1B06&SUBSYS_36001028&REV_A1\4&29DB84A2&0&0008
-   Driver: C:\Program Files\NVIDIA Corporation\Drs\dbInstaller.exe, 22.21.0013.8541 (English), 8/21/2017 18:01:55, 461248 bytes
-   Driver: C:\Program Files\NVIDIA Corporation\Drs\nvdrsdb.bin, 8/21/2017 18:01:55, 1425860 bytes
-   Driver: C:\Windows\System32\DriverStore\FileRepository\nvddi.inf_amd64_4d6d61f42568bcce\NvContainerSetup.exe, 1.00.0007.0000 (English), 8/21/2017 18:01:55, 4188296 bytes
-   Driver: C:\Windows\System32\DriverStore\FileRepository\nvddi.inf_amd64_4d6d61f42568bcce\NvCplSetupInt.exe, 1.00.0007.0000 (English), 8/21/2017 18:01:55, 100744576 bytes
-   Driver: C:\Program Files\NVIDIA Corporation\license.txt, 7/24/2017 03:10:12, 27203 bytes
-   Driver: C:\Program Files\NVIDIA Corporation\NVSMI\MCU.exe, 1.01.5204.20580 (English), 8/21/2017 18:01:55, 848504 bytes
-   Driver: C:\Program Files\NVIDIA Corporation\NVSMI\nvdebugdump.exe, 6.14.0013.8541 (English), 8/21/2017 18:01:55, 415352 bytes
-   Driver: C:\Program Files\NVIDIA Corporation\NVSMI\nvidia-smi.1.pdf, 8/21/2017 18:01:55, 77145 bytes
-   Driver: C:\Program Files\NVIDIA Corporation\NVSMI\nvidia-smi.exe, 8.17.0013.8541 (English), 8/21/2017 18:01:55, 503416 bytes
-   Driver: C:\Program Files\NVIDIA Corporation\NVSMI\nvml.dll, 8.17.0013.8541 (English), 8/21/2017 18:01:55, 906176 bytes
-   Driver: C:\Program Files\NVIDIA Corporation\OpenCL\OpenCL.dll, 2.00.0004.0000 (English), 8/21/2017 18:01:55, 418752 bytes
-   Driver: C:\Program Files\NVIDIA Corporation\OpenCL\OpenCL64.dll, 2.00.0004.0000 (English), 8/21/2017 18:01:55, 512960 bytes
-   Driver: C:\Windows\System32\DriverStore\FileRepository\nvddi.inf_amd64_4d6d61f42568bcce\nvlddmkm.sys, 22.21.0013.8541 (English), 8/22/2017 11:57:56, 15600248 bytes
-   Driver: C:\Windows\System32\DriverStore\FileRepository\nvddi.inf_amd64_4d6d61f42568bcce\nvd3dumx.dll, 22.21.0013.8541 (English), 8/21/2017 18:01:55, 18297216 bytes
-   Driver: C:\Windows\System32\DriverStore\FileRepository\nvddi.inf_amd64_4d6d61f42568bcce\nvd3dumx_cfg.dll, 22.21.0013.8541 (English), 8/21/2017 18:01:55, 18665616 bytes
-   Driver: C:\Windows\System32\DriverStore\FileRepository\nvddi.inf_amd64_4d6d61f42568bcce\nvinitx.dll, 22.21.0013.8541 (English), 8/21/2017 18:01:55, 196480 bytes
-   Driver: C:\Windows\System32\DriverStore\FileRepository\nvddi.inf_amd64_4d6d61f42568bcce\nvldumdx.dll, 22.21.0013.8541 (English), 8/21/2017 18:01:55, 893272 bytes
-   Driver: C:\Windows\System32\DriverStore\FileRepository\nvddi.inf_amd64_4d6d61f42568bcce\nvoglshim64.dll, 22.21.0013.8541 (English), 8/21/2017 18:01:55, 173272 bytes
-   Driver: C:\Windows\System32\DriverStore\FileRepository\nvddi.inf_amd64_4d6d61f42568bcce\nvumdshimx.dll, 22.21.0013.8541 (English), 8/21/2017 18:01:55, 607968 bytes
-   Driver: C:\Windows\System32\DriverStore\FileRepository\nvddi.inf_amd64_4d6d61f42568bcce\nvwgf2umx.dll, 22.21.0013.8541 (English), 8/21/2017 18:01:55, 26427560 bytes
-   Driver: C:\Windows\System32\DriverStore\FileRepository\nvddi.inf_amd64_4d6d61f42568bcce\nvwgf2umx_cfg.dll, 22.21.0013.8541 (English), 8/21/2017 18:01:55, 27166576 bytes
-   Driver: C:\Windows\system32\NvFBC64.dll, 6.14.0013.8541 (English), 8/21/2017 18:01:55, 1068152 bytes
-   Driver: C:\Windows\system32\NvIFR64.dll, 6.14.0013.8541 (English), 8/21/2017 18:01:55, 972736 bytes
-   Driver: C:\Windows\system32\NvIFROpenGL.dll, 22.21.0013.8541 (English), 8/21/2017 18:01:55, 609728 bytes
-   Driver: C:\Windows\system32\nv-vk64.json, 8/21/2017 18:01:55, 669 bytes
-   Driver: C:\Windows\system32\nvDecMFTMjpeg.dll, 22.21.0013.8541 (English), 8/21/2017 18:01:55, 725112 bytes
-   Driver: C:\Windows\system32\nvEncMFTH264.dll, 22.21.0013.8541 (English), 8/21/2017 18:01:55, 1292096 bytes
-   Driver: C:\Windows\system32\nvEncMFThevc.dll, 22.21.0013.8541 (English), 8/21/2017 18:01:55, 1289840 bytes
-   Driver: C:\Windows\system32\nvEncodeAPI64.dll, 22.21.0013.8541 (English), 8/21/2017 18:01:55, 781544 bytes
-   Driver: C:\Windows\system32\nvapi64.dll, 22.21.0013.8541 (English), 8/21/2017 18:01:55, 4210360 bytes
-   Driver: C:\Windows\system32\nvcompiler.dll, 22.21.0013.8541 (English), 8/21/2017 18:01:55, 40240248 bytes
-   Driver: C:\Windows\system32\nvcuda.dll, 6.14.0013.8541 (English), 8/21/2017 18:01:55, 13782904 bytes
-   Driver: C:\Windows\system32\nvcuvid.dll, 7.17.0013.8541 (English), 8/21/2017 18:01:55, 4162496 bytes
-   Driver: C:\Windows\system32\nvfatbinaryLoader.dll, 22.21.0013.8541 (English), 8/21/2017 18:01:55, 690320 bytes
-   Driver: C:\Windows\system32\nvinfo.pb, 8/21/2017 18:01:55, 46453 bytes
-   Driver: C:\Windows\system32\nvmcumd.dll, 22.21.0013.8541 (English), 8/21/2017 18:01:55, 618744 bytes
-   Driver: C:\Windows\system32\nvoglv64.dll, 22.21.0013.8541 (English), 8/21/2017 18:01:55, 35924600 bytes
-   Driver: C:\Windows\system32\nvopencl.dll, 6.14.0013.8541 (English), 8/21/2017 18:01:55, 23132184 bytes
-   Driver: C:\Windows\system32\nvptxJitCompiler.dll, 22.21.0013.8541 (English), 8/21/2017 18:01:55, 12225984 bytes
-   Driver: C:\Windows\System32\DriverStore\FileRepository\nvddi.inf_amd64_4d6d61f42568bcce\nvd3dum.dll, 22.21.0013.8541 (English), 8/21/2017 18:01:55, 14994024 bytes
-   Driver: C:\Windows\System32\DriverStore\FileRepository\nvddi.inf_amd64_4d6d61f42568bcce\nvd3dum_cfg.dll, 22.21.0013.8541 (English), 8/21/2017 18:01:55, 15298392 bytes
-   Driver: C:\Windows\System32\DriverStore\FileRepository\nvddi.inf_amd64_4d6d61f42568bcce\nvinit.dll, 22.21.0013.8541 (English), 8/21/2017 18:01:55, 169872 bytes
-   Driver: C:\Windows\System32\DriverStore\FileRepository\nvddi.inf_amd64_4d6d61f42568bcce\nvldumd.dll, 22.21.0013.8541 (English), 8/21/2017 18:01:55, 735360 bytes
-   Driver: C:\Windows\System32\DriverStore\FileRepository\nvddi.inf_amd64_4d6d61f42568bcce\nvoglshim32.dll, 22.21.0013.8541 (English), 8/21/2017 18:01:55, 144432 bytes
-   Driver: C:\Windows\System32\DriverStore\FileRepository\nvddi.inf_amd64_4d6d61f42568bcce\nvumdshim.dll, 22.21.0013.8541 (English), 8/21/2017 18:01:55, 493096 bytes
-   Driver: C:\Windows\System32\DriverStore\FileRepository\nvddi.inf_amd64_4d6d61f42568bcce\nvwgf2um.dll, 22.21.0013.8541 (English), 8/21/2017 18:01:55, 22383792 bytes
-   Driver: C:\Windows\System32\DriverStore\FileRepository\nvddi.inf_amd64_4d6d61f42568bcce\nvwgf2um_cfg.dll, 22.21.0013.8541 (English), 8/21/2017 18:01:55, 23234512 bytes
-   Driver: C:\Windows\SysWow64\NvFBC.dll, 6.14.0013.8541 (English), 8/21/2017 18:01:55, 1004992 bytes
-   Driver: C:\Windows\SysWow64\NvIFR.dll, 6.14.0013.8541 (English), 8/21/2017 18:01:55, 924280 bytes
-   Driver: C:\Windows\SysWow64\NvIFROpenGL.dll, 22.21.0013.8541 (English), 8/21/2017 18:01:55, 499320 bytes
-   Driver: C:\Windows\SysWow64\nv-vk32.json, 8/21/2017 18:01:55, 669 bytes
-   Driver: C:\Windows\SysWow64\nvDecMFTMjpeg.dll, 22.21.0013.8541 (English), 8/21/2017 18:01:55, 584312 bytes
-   Driver: C:\Windows\SysWow64\nvEncMFTH264.dll, 22.21.0013.8541 (English), 8/21/2017 18:01:55, 1008816 bytes
-   Driver: C:\Windows\SysWow64\nvEncMFThevc.dll, 22.21.0013.8541 (English), 8/21/2017 18:01:55, 1007280 bytes
-   Driver: C:\Windows\SysWow64\nvEncodeAPI.dll, 22.21.0013.8541 (English), 8/21/2017 18:01:55, 617232 bytes
-   Driver: C:\Windows\SysWow64\nvapi.dll, 22.21.0013.8541 (English), 8/21/2017 18:01:55, 3712024 bytes
-   Driver: C:\Windows\SysWow64\nvcompiler.dll, 22.21.0013.8541 (English), 8/21/2017 18:01:55, 35314112 bytes
-   Driver: C:\Windows\SysWow64\nvcuda.dll, 6.14.0013.8541 (English), 8/21/2017 18:01:55, 11692344 bytes
-   Driver: C:\Windows\SysWow64\nvcuvid.dll, 7.17.0013.8541 (English), 8/21/2017 18:01:55, 3590592 bytes
-   Driver: C:\Windows\SysWow64\nvfatbinaryLoader.dll, 22.21.0013.8541 (English), 8/21/2017 18:01:55, 578056 bytes
-   Driver: C:\Windows\SysWow64\nvoglv32.dll, 22.21.0013.8541 (English), 8/21/2017 18:01:55, 29019072 bytes
-   Driver: C:\Windows\SysWow64\nvopencl.dll, 6.14.0013.8541 (English), 8/21/2017 18:01:55, 18849456 bytes
-   Driver: C:\Windows\SysWow64\nvptxJitCompiler.dll, 22.21.0013.8541 (English), 8/21/2017 18:01:55, 10072768 bytes
-   Driver: C:\Windows\System32\DriverStore\FileRepository\nvddi.inf_amd64_4d6d61f42568bcce\VulkanRT-Installer.exe, 1.00.0051.0000 (English), 8/21/2017 18:01:55, 783272 bytes
-   Driver: C:\Windows\system32\nvdispco6438541.dll, 2.00.0048.0004 (English), 8/21/2017 18:01:55, 1988216 bytes
-   Driver: C:\Windows\system32\nvdispgenco6438541.dll, 2.00.0024.0002 (English), 8/21/2017 18:01:55, 1597888 bytes
-
-     Name: High Definition Audio Controller
-Device ID: PCI\VEN_8086&DEV_A2F0&SUBSYS_07DB1028&REV_00\3&11583659&1&FB
-   Driver: C:\Windows\system32\DRIVERS\hdaudbus.sys, 10.00.15063.0447 (English), 6/19/2017 22:12:02, 86528 bytes
-   Driver: C:\Windows\system32\DRIVERS\drmk.sys, 10.00.15063.0000 (English), 3/18/2017 13:56:20, 97280 bytes
-   Driver: C:\Windows\system32\DRIVERS\portcls.sys, 10.00.15063.0000 (English), 3/18/2017 13:56:20, 373248 bytes
-
-     Name: Intel(R) 200 Series Chipset Family LPC Controller (Z270) - A2C5
-Device ID: PCI\VEN_8086&DEV_A2C5&SUBSYS_07DB1028&REV_00\3&11583659&1&F8
-   Driver: C:\Windows\system32\DRIVERS\msisadrv.sys, 10.00.15063.0000 (English), 3/18/2017 13:56:26, 19352 bytes
-
-     Name: Killer E2400 Gigabit Ethernet Controller
-Device ID: PCI\VEN_1969&DEV_E0A1&SUBSYS_07DB1028&REV_10\4&16EF600C&0&00E3
-   Driver: C:\Windows\system32\DRIVERS\e2xw10x64.sys, 9.00.0000.0042 (English), 3/18/2017 13:56:25, 145920 bytes
-
-     Name: ASMedia USB 3.1 eXtensible Host Controller - 1.10 (Microsoft)
-Device ID: PCI\VEN_1B21&DEV_1242&SUBSYS_07DB1028&REV_00\4&1E1B619E&0&00E0
-   Driver: C:\Windows\system32\DRIVERS\USBXHCI.SYS, 10.00.15063.0296 (English), 6/8/2017 01:10:47, 388000 bytes
-
-     Name: High Definition Audio Controller
-Device ID: PCI\VEN_10DE&DEV_10EF&SUBSYS_36001028&REV_A1\4&29DB84A2&0&0108
-   Driver: C:\Windows\system32\DRIVERS\hdaudbus.sys, 10.00.15063.0447 (English), 6/19/2017 22:12:02, 86528 bytes
-   Driver: C:\Windows\system32\DRIVERS\drmk.sys, 10.00.15063.0000 (English), 3/18/2017 13:56:20, 97280 bytes
-   Driver: C:\Windows\system32\DRIVERS\portcls.sys, 10.00.15063.0000 (English), 3/18/2017 13:56:20, 373248 bytes
-
-     Name: Intel(R) 200 Series Chipset Family SMBUS - A2A3
-Device ID: PCI\VEN_8086&DEV_A2A3&SUBSYS_07DB1028&REV_00\3&11583659&1&FC
-   Driver: n/a
-
-     Name: Intel(R) 200 Series Chipset Family PCI Express Root Port #2 - A291
-Device ID: PCI\VEN_8086&DEV_A291&SUBSYS_07DB1028&REV_F0\3&11583659&1&E0
-   Driver: C:\Windows\system32\DRIVERS\pci.sys, 10.00.15063.0000 (English), 3/18/2017 13:56:26, 353696 bytes
-
-     Name: Intel(R) USB 3.0 eXtensible Host Controller - 1.0 (Microsoft)
-Device ID: PCI\VEN_8086&DEV_A2AF&SUBSYS_07DB1028&REV_00\3&11583659&1&A0
-   Driver: C:\Windows\system32\DRIVERS\USBXHCI.SYS, 10.00.15063.0296 (English), 6/8/2017 01:10:47, 388000 bytes
-
-     Name: PCI-to-PCI Bridge
-Device ID: PCI\VEN_8086&DEV_1901&SUBSYS_07DB1028&REV_05\3&11583659&1&08
-   Driver: C:\Windows\system32\DRIVERS\pci.sys, 10.00.15063.0000 (English), 3/18/2017 13:56:26, 353696 bytes
-
-     Name: Intel(R) Dual Band Wireless-AC 3165
-Device ID: PCI\VEN_8086&DEV_3165&SUBSYS_44108086&REV_79\4&20D0F96C&0&00E2
-   Driver: C:\Windows\system32\DRIVERS\Netwtw04.sys, 19.01.0000.0004 (English), 3/18/2017 13:56:20, 7218176 bytes
-   Driver: C:\Windows\system32\DRIVERS\Netwfw04.dat, 3/18/2017 13:56:20, 9212864 bytes
-
-     Name: Intel Chipset SATA RAID Controller
-Device ID: PCI\VEN_8086&DEV_2822&SUBSYS_07DB1028&REV_00\3&11583659&1&B8
-   Driver: C:\Windows\system32\DRIVERS\iaStorA.sys, 15.05.0002.1054 (English), 5/2/2017 20:01:42, 891392 bytes
-   Driver: C:\Windows\system32\DRIVERS\iaStorAfs.sys, 15.05.0002.1054 (English), 5/2/2017 20:01:42, 69632 bytes
-   Driver: C:\Windows\IAStorAfsService\iaStorAfsService.exe, 15.05.0002.1054 (English), 5/2/2017 20:01:42, 2407600 bytes
-   Driver: C:\Windows\IAStorAfsService\iaStorAfsNative.exe, 15.05.0002.1054 (English), 5/2/2017 20:01:42, 195248 bytes
-
-     Name: Intel(R) Serial IO I2C Host Controller - A2E0
-Device ID: PCI\VEN_8086&DEV_A2E0&SUBSYS_07DB1028&REV_00\3&11583659&1&A8
-   Driver: C:\Windows\system32\DRIVERS\iaLPSS2i_I2C.sys, 30.100.1633.0003 (English), 3/18/2017 13:56:28, 165376 bytes
-
-     Name: Intel(R) 200 Series Chipset Family PMC - A2A1
-Device ID: PCI\VEN_8086&DEV_A2A1&SUBSYS_07DB1028&REV_00\3&11583659&1&FA
-   Driver: n/a
-
-     Name: Intel(R) 200 Series Chipset Family PCI Express Root Port #3 - A292
-Device ID: PCI\VEN_8086&DEV_A292&SUBSYS_07DB1028&REV_F0\3&11583659&1&E2
-   Driver: C:\Windows\system32\DRIVERS\pci.sys, 10.00.15063.0000 (English), 3/18/2017 13:56:26, 353696 bytes
-
-     Name: Intel(R) 200 Series Chipset Family LPSS: UART #0 - A2A7
-Device ID: PCI\VEN_8086&DEV_A2A7&SUBSYS_07DB1028&REV_00\3&11583659&1&F0
-   Driver: n/a
-
-     Name: Intel(R) HD Graphics 630
-Device ID: PCI\VEN_8086&DEV_5912&SUBSYS_07DB1028&REV_04\3&11583659&1&10
-   Driver: C:\Windows\System32\DriverStore\FileRepository\ki119560.inf_amd64_5a492b6b44b20fba\igdkmd64.sys, 21.20.0016.4550 (English), 11/24/2016 21:18:32, 11039704 bytes
-   Driver: C:\Windows\System32\DriverStore\FileRepository\ki119560.inf_amd64_5a492b6b44b20fba\igd10iumd64.dll, 21.20.0016.4550 (English), 11/24/2016 21:19:30, 23011112 bytes
-   Driver: C:\Windows\System32\DriverStore\FileRepository\ki119560.inf_amd64_5a492b6b44b20fba\igd10idpp64.dll, 21.20.0016.4550 (English), 11/24/2016 21:19:20, 433880 bytes
-   Driver: C:\Windows\System32\DriverStore\FileRepository\ki119560.inf_amd64_5a492b6b44b20fba\igd11dxva64.dll, 21.20.0016.4550 (English), 11/24/2016 21:19:40, 48251152 bytes
-   Driver: C:\Windows\System32\DriverStore\FileRepository\ki119560.inf_amd64_5a492b6b44b20fba\igd12umd64.dll, 21.20.0016.4550 (English), 11/24/2016 21:19:44, 3485664 bytes
-   Driver: C:\Windows\System32\DriverStore\FileRepository\ki119560.inf_amd64_5a492b6b44b20fba\igdumdim64.dll, 21.20.0016.4550 (English), 11/24/2016 21:20:06, 94208456 bytes
-   Driver: C:\Windows\System32\DriverStore\FileRepository\ki119560.inf_amd64_5a492b6b44b20fba\igdail64.dll, 21.20.0016.4550 (English), 11/24/2016 21:18:16, 327680 bytes
-   Driver: C:\Windows\System32\DriverStore\FileRepository\ki119560.inf_amd64_5a492b6b44b20fba\igfxcmrt64.dll, 6.00.0000.1189 (English), 11/24/2016 21:20:30, 197080 bytes
-   Driver: C:\Windows\System32\DriverStore\FileRepository\ki119560.inf_amd64_5a492b6b44b20fba\igfx11cmrt64.dll, 6.00.0000.1189 (English), 11/24/2016 21:20:20, 194520 bytes
-   Driver: C:\Windows\System32\DriverStore\FileRepository\ki119560.inf_amd64_5a492b6b44b20fba\igfxcmjit64.dll, 6.00.0000.1189 (English), 11/24/2016 21:18:50, 2324480 bytes
-   Driver: C:\Windows\System32\DriverStore\FileRepository\ki119560.inf_amd64_5a492b6b44b20fba\igdde64.dll, 21.20.0016.4550 (English), 11/24/2016 21:19:54, 224792 bytes
-   Driver: C:\Windows\System32\DriverStore\FileRepository\ki119560.inf_amd64_5a492b6b44b20fba\igdusc64.dll, 21.20.0016.4550 (English), 11/24/2016 21:20:14, 6628136 bytes
-   Driver: C:\Windows\System32\DriverStore\FileRepository\ki119560.inf_amd64_5a492b6b44b20fba\iga64.dll, 11/24/2016 21:19:06, 1349784 bytes
-   Driver: C:\Windows\System32\DriverStore\FileRepository\ki119560.inf_amd64_5a492b6b44b20fba\igc64.dll, 21.20.0016.4550 (English), 11/24/2016 21:19:16, 18615656 bytes
-   Driver: C:\Windows\System32\DriverStore\FileRepository\ki119560.inf_amd64_5a492b6b44b20fba\igdmd64.dll, 21.20.0016.4550 (English), 11/24/2016 21:19:58, 2936608 bytes
-   Driver: C:\Windows\System32\DriverStore\FileRepository\ki119560.inf_amd64_5a492b6b44b20fba\igd10iumd32.dll, 21.20.0016.4550 (English), 11/24/2016 21:19:26, 17909872 bytes
-   Driver: C:\Windows\System32\DriverStore\FileRepository\ki119560.inf_amd64_5a492b6b44b20fba\igd10idpp32.dll, 21.20.0016.4550 (English), 11/24/2016 21:19:16, 411896 bytes
-   Driver: C:\Windows\System32\DriverStore\FileRepository\ki119560.inf_amd64_5a492b6b44b20fba\igd11dxva32.dll, 21.20.0016.4550 (English), 11/24/2016 21:19:34, 47371760 bytes
-   Driver: C:\Windows\System32\DriverStore\FileRepository\ki119560.inf_amd64_5a492b6b44b20fba\igd12umd32.dll, 21.20.0016.4550 (English), 11/24/2016 21:19:42, 3387200 bytes
-   Driver: C:\Windows\System32\DriverStore\FileRepository\ki119560.inf_amd64_5a492b6b44b20fba\igdumdim32.dll, 21.20.0016.4550 (English), 11/24/2016 21:20:02, 92938800 bytes
-   Driver: C:\Windows\System32\DriverStore\FileRepository\ki119560.inf_amd64_5a492b6b44b20fba\igdail32.dll, 21.20.0016.4550 (English), 11/24/2016 21:18:12, 308224 bytes
-   Driver: C:\Windows\System32\DriverStore\FileRepository\ki119560.inf_amd64_5a492b6b44b20fba\igdde32.dll, 21.20.0016.4550 (English), 11/24/2016 21:19:48, 183896 bytes
-   Driver: C:\Windows\System32\DriverStore\FileRepository\ki119560.inf_amd64_5a492b6b44b20fba\igfxcmrt32.dll, 6.00.0000.1189 (English), 11/24/2016 21:20:24, 170712 bytes
-   Driver: C:\Windows\System32\DriverStore\FileRepository\ki119560.inf_amd64_5a492b6b44b20fba\igfx11cmrt32.dll, 6.00.0000.1189 (English), 11/24/2016 21:20:18, 170808 bytes
-   Driver: C:\Windows\System32\DriverStore\FileRepository\ki119560.inf_amd64_5a492b6b44b20fba\igfxcmjit32.dll, 6.00.0000.1189 (English), 11/24/2016 21:18:48, 1711616 bytes
-   Driver: C:\Windows\System32\DriverStore\FileRepository\ki119560.inf_amd64_5a492b6b44b20fba\igdusc32.dll, 21.20.0016.4550 (English), 11/24/2016 21:20:10, 5090176 bytes
-   Driver: C:\Windows\System32\DriverStore\FileRepository\ki119560.inf_amd64_5a492b6b44b20fba\iga32.dll, 11/24/2016 21:19:02, 1119224 bytes
-   Driver: C:\Windows\System32\DriverStore\FileRepository\ki119560.inf_amd64_5a492b6b44b20fba\igc32.dll, 21.20.0016.4550 (English), 11/24/2016 21:19:12, 15930728 bytes
-   Driver: C:\Windows\System32\DriverStore\FileRepository\ki119560.inf_amd64_5a492b6b44b20fba\igdmd32.dll, 21.20.0016.4550 (English), 11/24/2016 21:19:56, 2283672 bytes
-   Driver: C:\Windows\System32\DriverStore\FileRepository\ki119560.inf_amd64_5a492b6b44b20fba\iglhxs64.vp, 11/24/2016 13:21:56, 12722 bytes
-   Driver: C:\Windows\System32\DriverStore\FileRepository\ki119560.inf_amd64_5a492b6b44b20fba\iglhxo64.vp, 11/24/2016 13:21:56, 40343 bytes
-   Driver: C:\Windows\System32\DriverStore\FileRepository\ki119560.inf_amd64_5a492b6b44b20fba\iglhxc64.vp, 11/24/2016 13:21:56, 40316 bytes
-   Driver: C:\Windows\System32\DriverStore\FileRepository\ki119560.inf_amd64_5a492b6b44b20fba\iglhxg64.vp, 11/24/2016 13:21:56, 39658 bytes
-   Driver: C:\Windows\System32\DriverStore\FileRepository\ki119560.inf_amd64_5a492b6b44b20fba\iglhxo64_dev.vp, 11/24/2016 13:21:56, 40931 bytes
-   Driver: C:\Windows\System32\DriverStore\FileRepository\ki119560.inf_amd64_5a492b6b44b20fba\iglhxc64_dev.vp, 11/24/2016 13:21:56, 41296 bytes
-   Driver: C:\Windows\System32\DriverStore\FileRepository\ki119560.inf_amd64_5a492b6b44b20fba\iglhxg64_dev.vp, 11/24/2016 13:21:56, 39798 bytes
-   Driver: C:\Windows\System32\DriverStore\FileRepository\ki119560.inf_amd64_5a492b6b44b20fba\iglhxa64.vp, 11/24/2016 13:21:56, 1125 bytes
-   Driver: C:\Windows\System32\DriverStore\FileRepository\ki119560.inf_amd64_5a492b6b44b20fba\iglhxa64.cpa, 11/24/2016 13:21:56, 2813952 bytes
-   Driver: C:\Windows\System32\DriverStore\FileRepository\ki119560.inf_amd64_5a492b6b44b20fba\iglhcp64.dll, 9.00.0030.7777 (English), 11/24/2016 21:20:40, 238904 bytes
-   Driver: C:\Windows\System32\DriverStore\FileRepository\ki119560.inf_amd64_5a492b6b44b20fba\iglhsip64.dll, 9.00.0030.9000 (English), 11/24/2016 21:20:44, 1816728 bytes
-   Driver: C:\Windows\System32\DriverStore\FileRepository\ki119560.inf_amd64_5a492b6b44b20fba\IntelCpHDCPSvc.exe, 1.00.0000.0001 (English), 11/24/2016 21:19:52, 480216 bytes
-   Driver: C:\Windows\System32\DriverStore\FileRepository\ki119560.inf_amd64_5a492b6b44b20fba\iglhcp32.dll, 9.00.0030.7777 (English), 11/24/2016 21:20:38, 203320 bytes
-   Driver: C:\Windows\System32\DriverStore\FileRepository\ki119560.inf_amd64_5a492b6b44b20fba\iglhsip32.dll, 9.00.0030.9000 (English), 11/24/2016 21:20:44, 1814072 bytes
-   Driver: C:\Windows\System32\DriverStore\FileRepository\ki119560.inf_amd64_5a492b6b44b20fba\IntelCpHeciSvc.exe, 9.00.0031.9015 (English), 11/24/2016 21:19:54, 301528 bytes
-   Driver: C:\Windows\system32\cp_resources.bin, 11/24/2016 13:21:52, 560260 bytes
-   Driver: C:\Windows\System32\DriverStore\FileRepository\ki119560.inf_amd64_5a492b6b44b20fba\difx64.exe, 1.04.0003.0000 (English), 11/24/2016 21:17:46, 175056 bytes
-   Driver: C:\Windows\System32\DriverStore\FileRepository\ki119560.inf_amd64_5a492b6b44b20fba\igfxDH.dll, 6.15.0010.4550 (English), 11/24/2016 21:19:06, 923648 bytes
-   Driver: C:\Windows\System32\DriverStore\FileRepository\ki119560.inf_amd64_5a492b6b44b20fba\igfxDHLib.dll, 1.00.0000.0000 (Invariant Language), 11/24/2016 21:19:08, 115200 bytes
-   Driver: C:\Windows\System32\DriverStore\FileRepository\ki119560.inf_amd64_5a492b6b44b20fba\igfxDHLibv2_0.dll, 1.00.0000.0000 (Invariant Language), 11/24/2016 21:19:10, 123904 bytes
-   Driver: C:\Windows\System32\DriverStore\FileRepository\ki119560.inf_amd64_5a492b6b44b20fba\igfxDI.dll, 6.15.0010.4550 (English), 11/24/2016 21:19:12, 396800 bytes
-   Driver: C:\Windows\System32\DriverStore\FileRepository\ki119560.inf_amd64_5a492b6b44b20fba\igfxDILib.dll, 1.00.0000.0000 (Invariant Language), 11/24/2016 21:19:12, 29696 bytes
-   Driver: C:\Windows\System32\DriverStore\FileRepository\ki119560.inf_amd64_5a492b6b44b20fba\igfxDILibv2_0.dll, 1.00.0000.0000 (Invariant Language), 11/24/2016 21:19:16, 29184 bytes
-   Driver: C:\Windows\System32\DriverStore\FileRepository\ki119560.inf_amd64_5a492b6b44b20fba\igfxLHM.dll, 6.15.0010.4550 (English), 11/24/2016 21:19:38, 1988608 bytes
-   Driver: C:\Windows\System32\DriverStore\FileRepository\ki119560.inf_amd64_5a492b6b44b20fba\igfxLHMLib.dll, 1.00.0000.0000 (Invariant Language), 11/24/2016 21:19:40, 22528 bytes
-   Driver: C:\Windows\System32\DriverStore\FileRepository\ki119560.inf_amd64_5a492b6b44b20fba\igfxLHMLibv2_0.dll, 1.00.0000.0000 (Invariant Language), 11/24/2016 21:19:42, 22528 bytes
-   Driver: C:\Windows\System32\DriverStore\FileRepository\ki119560.inf_amd64_5a492b6b44b20fba\igfxSDK.exe, 11/24/2016 21:19:44, 999384 bytes
-   Driver: C:\Windows\System32\DriverStore\FileRepository\ki119560.inf_amd64_5a492b6b44b20fba\igfxSDKLib.dll, 1.00.0000.0000 (Invariant Language), 11/24/2016 21:19:44, 97792 bytes
-   Driver: C:\Windows\System32\DriverStore\FileRepository\ki119560.inf_amd64_5a492b6b44b20fba\igfxSDKLibv2_0.dll, 1.00.0000.0000 (Invariant Language), 11/24/2016 21:19:46, 107520 bytes
-   Driver: C:\Windows\System32\DriverStore\FileRepository\ki119560.inf_amd64_5a492b6b44b20fba\igfxEM.exe, 6.15.0010.4550 (English), 11/24/2016 21:19:22, 523224 bytes
-   Driver: C:\Windows\System32\DriverStore\FileRepository\ki119560.inf_amd64_5a492b6b44b20fba\igfxEMLib.dll, 1.00.0000.0000 (Invariant Language), 11/24/2016 21:19:26, 27648 bytes
-   Driver: C:\Windows\System32\DriverStore\FileRepository\ki119560.inf_amd64_5a492b6b44b20fba\igfxEMLibv2_0.dll, 1.00.0000.0000 (Invariant Language), 11/24/2016 21:19:30, 27648 bytes
-   Driver: C:\Windows\System32\DriverStore\FileRepository\ki119560.inf_amd64_5a492b6b44b20fba\GfxUIEx.exe, 6.15.0010.4550 (English), 11/24/2016 21:17:52, 458712 bytes
-   Driver: C:\Windows\System32\DriverStore\FileRepository\ki119560.inf_amd64_5a492b6b44b20fba\Gfxv4_0.exe, 8.15.0010.4550 (English), 11/24/2016 21:18:02, 915416 bytes
-   Driver: C:\Windows\System32\DriverStore\FileRepository\ki119560.inf_amd64_5a492b6b44b20fba\Gfxv4_0.exe.config, 11/24/2016 13:21:52, 935 bytes
-   Driver: C:\Windows\System32\DriverStore\FileRepository\ki119560.inf_amd64_5a492b6b44b20fba\Gfxv2_0.exe, 8.15.0010.4550 (English), 11/24/2016 21:17:56, 909784 bytes
-   Driver: C:\Windows\System32\DriverStore\FileRepository\ki119560.inf_amd64_5a492b6b44b20fba\Gfxv2_0.exe.config, 11/24/2016 13:21:52, 895 bytes
-   Driver: C:\Windows\System32\DriverStore\FileRepository\ki119560.inf_amd64_5a492b6b44b20fba\GfxResources.dll, 8.15.0010.4550 (English), 11/24/2016 21:17:50, 5056512 bytes
-   Driver: C:\Windows\System32\DriverStore\FileRepository\ki119560.inf_amd64_5a492b6b44b20fba\MetroIntelGenericUIFramework.dll, 1.00.0000.0000 (English), 11/24/2016 21:20:58, 640000 bytes
-   Driver: C:\Windows\System32\DriverStore\FileRepository\ki119560.inf_amd64_5a492b6b44b20fba\igfxCUIServicePS.dll, 11/24/2016 21:19:02, 102912 bytes
-   Driver: C:\Windows\System32\DriverStore\FileRepository\ki119560.inf_amd64_5a492b6b44b20fba\igfxCUIService.exe, 6.15.0010.4550 (English), 11/24/2016 21:18:58, 341976 bytes
-   Driver: C:\Windows\System32\DriverStore\FileRepository\ki119560.inf_amd64_5a492b6b44b20fba\igfxCPL.cpl, 11/24/2016 21:18:54, 271360 bytes
-   Driver: C:\Windows\System32\DriverStore\FileRepository\ki119560.inf_amd64_5a492b6b44b20fba\igfxDTCM.dll, 6.15.0010.4550 (English), 11/24/2016 21:19:18, 208384 bytes
-   Driver: C:\Windows\System32\DriverStore\FileRepository\ki119560.inf_amd64_5a492b6b44b20fba\igfxext.exe, 6.15.0010.4550 (English), 11/24/2016 21:19:34, 302552 bytes
-   Driver: C:\Windows\System32\DriverStore\FileRepository\ki119560.inf_amd64_5a492b6b44b20fba\igfxexps.dll, 6.15.0010.4550 (English), 11/24/2016 21:20:32, 55256 bytes
-   Driver: C:\Windows\System32\DriverStore\FileRepository\ki119560.inf_amd64_5a492b6b44b20fba\ColorImageEnhancement.wmv, 11/24/2016 13:21:52, 375173 bytes
-   Driver: C:\Windows\System32\DriverStore\FileRepository\ki119560.inf_amd64_5a492b6b44b20fba\ImageStabilization.wmv, 11/24/2016 13:21:56, 403671 bytes
-   Driver: C:\Windows\System32\DriverStore\FileRepository\ki119560.inf_amd64_5a492b6b44b20fba\FilmModeDetection.wmv, 11/24/2016 13:21:52, 641530 bytes
-   Driver: C:\Windows\system32\igfxCPL.cpl, 11/24/2016 21:18:54, 271360 bytes
-   Driver: C:\Windows\System32\DriverStore\FileRepository\ki119560.inf_amd64_5a492b6b44b20fba\igfxexps32.dll, 6.15.0010.4550 (English), 11/24/2016 21:19:32, 52736 bytes
-   Driver: C:\Windows\System32\DriverStore\FileRepository\ki119560.inf_amd64_5a492b6b44b20fba\ig9icd64.dll, 21.20.0016.4550 (English), 11/24/2016 21:18:08, 13803008 bytes
-   Driver: C:\Windows\System32\DriverStore\FileRepository\ki119560.inf_amd64_5a492b6b44b20fba\ig9icd32.dll, 21.20.0016.4550 (English), 11/24/2016 21:18:06, 10543616 bytes
-   Driver: C:\Program Files (x86)\Common Files\Intel\OpenCL\llvm_release_license.txt, 11/24/2016 13:21:56, 1981 bytes
-   Driver: C:\Program Files (x86)\Common Files\Intel\OpenCL\readme.txt, 11/24/2016 13:21:56, 9788 bytes
-   Driver: C:\Program Files (x86)\Common Files\Intel\OpenCL\version.ini, 11/24/2016 13:21:56, 32 bytes
-   Driver: C:\Windows\SysWow64\Intel_OpenCL_ICD32.dll, 2.01.0000.0000 (English), 11/24/2016 21:20:40, 104448 bytes
-   Driver: C:\Program Files (x86)\Common Files\Intel\OpenCL\bin\x86\task_executor32.dll, 6.08.0000.0392 (English), 11/24/2016 21:22:20, 378368 bytes
-   Driver: C:\Program Files (x86)\Common Files\Intel\OpenCL\bin\x86\OclCpuBackend32.dll, 6.08.0000.0392 (English), 11/24/2016 21:22:18, 8677376 bytes
-   Driver: C:\Program Files (x86)\Common Files\Intel\OpenCL\bin\x86\intelocl32.dll, 6.08.0000.0392 (English), 11/24/2016 21:22:10, 1470976 bytes
-   Driver: C:\Program Files (x86)\Common Files\Intel\OpenCL\bin\x86\cpu_device32.dll, 6.08.0000.0392 (English), 11/24/2016 21:22:04, 525312 bytes
-   Driver: C:\Program Files (x86)\Common Files\Intel\OpenCL\bin\x86\clbltfnn8.rtl, 11/24/2016 13:21:56, 1304316 bytes
-   Driver: C:\Program Files (x86)\Common Files\Intel\OpenCL\bin\x86\clbltfnn8_img_cbk.o, 11/24/2016 13:21:56, 321440 bytes
-   Driver: C:\Program Files (x86)\Common Files\Intel\OpenCL\bin\x86\clbltfnn8_img_cbk.rtl, 11/24/2016 13:21:56, 392692 bytes
-   Driver: C:\Program Files (x86)\Common Files\Intel\OpenCL\bin\x86\clbltfng9.rtl, 11/24/2016 13:21:56, 1242252 bytes
-   Driver: C:\Program Files (x86)\Common Files\Intel\OpenCL\bin\x86\clbltfng9_img_cbk.o, 11/24/2016 13:21:56, 312700 bytes
-   Driver: C:\Program Files (x86)\Common Files\Intel\OpenCL\bin\x86\clbltfng9_img_cbk.rtl, 11/24/2016 13:21:56, 392572 bytes
-   Driver: C:\Program Files (x86)\Common Files\Intel\OpenCL\bin\x86\clbltfns9.rtl, 11/24/2016 13:21:56, 897368 bytes
-   Driver: C:\Program Files (x86)\Common Files\Intel\OpenCL\bin\x86\clbltfns9_img_cbk.o, 11/24/2016 13:21:56, 264072 bytes
-   Driver: C:\Program Files (x86)\Common Files\Intel\OpenCL\bin\x86\clbltfns9_img_cbk.rtl, 11/24/2016 13:21:56, 350376 bytes
-   Driver: C:\Program Files (x86)\Common Files\Intel\OpenCL\bin\x86\clang_compiler32.dll, 6.08.0000.0392 (English), 11/24/2016 21:21:58, 1435648 bytes
-   Driver: C:\Program Files (x86)\Common Files\Intel\OpenCL\bin\x86\__ocl_svml_n8.dll, 3.04.0000.0000 (English), 11/24/2016 21:22:44, 5022720 bytes
-   Driver: C:\Program Files (x86)\Common Files\Intel\OpenCL\bin\x86\__ocl_svml_g9.dll, 3.04.0000.0000 (English), 11/24/2016 21:22:34, 5360128 bytes
-   Driver: C:\Program Files (x86)\Common Files\Intel\OpenCL\bin\x86\__ocl_svml_s9.dll, 3.04.0000.0000 (English), 11/24/2016 21:22:46, 5238272 bytes
-   Driver: C:\Program Files (x86)\Common Files\Intel\OpenCL\bin\x86\tbb\tbbmalloc.dll, 4.03.2015.0528 (English), 11/24/2016 21:22:26, 274080 bytes
-   Driver: C:\Program Files (x86)\Common Files\Intel\OpenCL\bin\x86\tbb\tbb.dll, 4.03.2015.0528 (English), 11/24/2016 21:22:22, 436384 bytes
-   Driver: C:\Program Files (x86)\Common Files\Intel\OpenCL\bin\x86\tbb\tbb_preview.dll, 4.02.2013.1002 (), 11/24/2016 21:22:28, 355992 bytes
-   Driver: C:\Program Files (x86)\Common Files\Intel\OpenCL\bin\common\clbltfnshared.rtl, 11/24/2016 13:21:56, 1067104 bytes
-   Driver: C:\Windows\system32\Intel_OpenCL_ICD64.dll, 2.01.0000.0000 (English), 11/24/2016 21:20:44, 113664 bytes
-   Driver: C:\Program Files (x86)\Common Files\Intel\OpenCL\bin\x64\task_executor64.dll, 6.08.0000.0392 (English), 11/24/2016 21:22:22, 434688 bytes
-   Driver: C:\Program Files (x86)\Common Files\Intel\OpenCL\bin\x64\OclCpuBackend64.dll, 6.08.0000.0392 (English), 11/24/2016 21:22:18, 11609088 bytes
-   Driver: C:\Program Files (x86)\Common Files\Intel\OpenCL\bin\x64\intelocl64.dll, 6.08.0000.0392 (English), 11/24/2016 21:22:10, 1711104 bytes
-   Driver: C:\Program Files (x86)\Common Files\Intel\OpenCL\bin\x64\cpu_device64.dll, 6.08.0000.0392 (English), 11/24/2016 21:22:06, 671232 bytes
-   Driver: C:\Program Files (x86)\Common Files\Intel\OpenCL\bin\x64\clbltfnh8.rtl, 11/24/2016 13:21:56, 1252064 bytes
-   Driver: C:\Program Files (x86)\Common Files\Intel\OpenCL\bin\x64\clbltfnh8_img_cbk.o, 11/24/2016 13:21:56, 344424 bytes
-   Driver: C:\Program Files (x86)\Common Files\Intel\OpenCL\bin\x64\clbltfnh8_img_cbk.rtl, 11/24/2016 13:21:56, 408100 bytes
-   Driver: C:\Program Files (x86)\Common Files\Intel\OpenCL\bin\x64\clbltfne9.rtl, 11/24/2016 13:21:56, 1190008 bytes
-   Driver: C:\Program Files (x86)\Common Files\Intel\OpenCL\bin\x64\clbltfne9_img_cbk.o, 11/24/2016 13:21:56, 331352 bytes
-   Driver: C:\Program Files (x86)\Common Files\Intel\OpenCL\bin\x64\clbltfne9_img_cbk.rtl, 11/24/2016 13:21:56, 407980 bytes
-   Driver: C:\Program Files (x86)\Common Files\Intel\OpenCL\bin\x64\clbltfnl9.rtl, 11/24/2016 13:21:56, 829896 bytes
-   Driver: C:\Program Files (x86)\Common Files\Intel\OpenCL\bin\x64\clbltfnl9_img_cbk.o, 11/24/2016 13:21:56, 283456 bytes
-   Driver: C:\Program Files (x86)\Common Files\Intel\OpenCL\bin\x64\clbltfnl9_img_cbk.rtl, 11/24/2016 13:21:56, 366152 bytes
-   Driver: C:\Program Files (x86)\Common Files\Intel\OpenCL\bin\x64\clang_compiler64.dll, 6.08.0000.0392 (English), 11/24/2016 21:22:02, 1883648 bytes
-   Driver: C:\Program Files (x86)\Common Files\Intel\OpenCL\bin\x64\__ocl_svml_h8.dll, 3.04.0000.0000 (English), 11/24/2016 21:22:38, 5234176 bytes
-   Driver: C:\Program Files (x86)\Common Files\Intel\OpenCL\bin\x64\__ocl_svml_e9.dll, 3.04.0000.0000 (English), 11/24/2016 21:22:32, 5744640 bytes
-   Driver: C:\Program Files (x86)\Common Files\Intel\OpenCL\bin\x64\__ocl_svml_l9.dll, 3.04.0000.0000 (English), 11/24/2016 21:22:40, 5627392 bytes
-   Driver: C:\Program Files (x86)\Common Files\Intel\OpenCL\bin\x64\tbb\tbbmalloc.dll, 4.03.2015.0528 (English), 11/24/2016 21:22:26, 323744 bytes
-   Driver: C:\Program Files (x86)\Common Files\Intel\OpenCL\bin\x64\tbb\tbb.dll, 4.03.2015.0528 (English), 11/24/2016 21:22:24, 521888 bytes
-   Driver: C:\Program Files (x86)\Common Files\Intel\OpenCL\bin\x64\tbb\tbb_preview.dll, 4.02.2013.1002 (), 11/24/2016 21:22:30, 433816 bytes
-   Driver: C:\Windows\System32\DriverStore\FileRepository\ki119560.inf_amd64_5a492b6b44b20fba\IntelOpenCL32.dll, 21.20.0016.4550 (English), 11/24/2016 21:19:58, 325632 bytes
-   Driver: C:\Windows\System32\DriverStore\FileRepository\ki119560.inf_amd64_5a492b6b44b20fba\igdbcl32.dll, 21.20.0016.4550 (English), 11/24/2016 21:18:20, 412160 bytes
-   Driver: C:\Windows\System32\DriverStore\FileRepository\ki119560.inf_amd64_5a492b6b44b20fba\igdrcl32.dll, 21.20.0016.4550 (English), 11/24/2016 21:18:44, 6386688 bytes
-   Driver: C:\Windows\System32\DriverStore\FileRepository\ki119560.inf_amd64_5a492b6b44b20fba\common_clang32.dll, 4.03.0000.0000 (English), 11/24/2016 21:17:44, 24669184 bytes
-   Driver: C:\Windows\System32\DriverStore\FileRepository\ki119560.inf_amd64_5a492b6b44b20fba\igdmcl32.dll, 21.20.0016.4550 (English), 11/24/2016 21:18:40, 4840448 bytes
-   Driver: C:\Windows\System32\DriverStore\FileRepository\ki119560.inf_amd64_5a492b6b44b20fba\igdfcl32.dll, 21.20.0016.4550 (English), 11/24/2016 21:18:26, 239104 bytes
-   Driver: C:\Windows\System32\DriverStore\FileRepository\ki119560.inf_amd64_5a492b6b44b20fba\IntelOpenCL64.dll, 21.20.0016.4550 (English), 11/24/2016 21:20:02, 427520 bytes
-   Driver: C:\Windows\System32\DriverStore\FileRepository\ki119560.inf_amd64_5a492b6b44b20fba\igdbcl64.dll, 21.20.0016.4550 (English), 11/24/2016 21:18:22, 460800 bytes
-   Driver: C:\Windows\System32\DriverStore\FileRepository\ki119560.inf_amd64_5a492b6b44b20fba\igdrcl64.dll, 21.20.0016.4550 (English), 11/24/2016 21:18:46, 7090176 bytes
-   Driver: C:\Windows\System32\DriverStore\FileRepository\ki119560.inf_amd64_5a492b6b44b20fba\common_clang64.dll, 4.03.0000.0000 (English), 11/24/2016 21:17:46, 36626944 bytes
-   Driver: C:\Windows\System32\DriverStore\FileRepository\ki119560.inf_amd64_5a492b6b44b20fba\igdmcl64.dll, 21.20.0016.4550 (English), 11/24/2016 21:18:40, 6886912 bytes
-   Driver: C:\Windows\System32\DriverStore\FileRepository\ki119560.inf_amd64_5a492b6b44b20fba\igdfcl64.dll, 21.20.0016.4550 (English), 11/24/2016 21:18:28, 279040 bytes
-   Driver: C:\Windows\System32\DriverStore\FileRepository\ki119560.inf_amd64_5a492b6b44b20fba\igdclbif.bin, 11/24/2016 13:21:54, 8097966 bytes
-   Driver: C:\Windows\SysWow64\libEGL.dll, 11/24/2016 21:20:48, 141312 bytes
-   Driver: C:\Windows\SysWow64\libGLESv1_CM.dll, 11/24/2016 21:20:52, 101376 bytes
-   Driver: C:\Windows\SysWow64\libGLESv2.dll, 11/24/2016 21:20:56, 112128 bytes
-   Driver: C:\Program Files\Intel\Media SDK\libmfxhw32.dll, 7.16.0009.0029 (English), 11/24/2016 21:20:44, 8864224 bytes
-   Driver: C:\Program Files\Intel\Media SDK\mfxplugin32_hw.dll, 1.16.0009.0029 (English), 11/24/2016 21:21:02, 4741328 bytes
-   Driver: C:\Program Files\Intel\Media SDK\mfx_mft_h264ve_32.dll, 7.16.0010.0013 (English), 11/24/2016 21:21:00, 1483832 bytes
-   Driver: C:\Program Files\Intel\Media SDK\mfx_mft_mjpgvd_32.dll, 7.16.0010.0013 (English), 11/24/2016 21:21:18, 1369808 bytes
-   Driver: C:\Program Files\Intel\Media SDK\mfx_mft_vp8vd_32.dll, 7.16.0010.0013 (English), 11/24/2016 21:21:40, 1378512 bytes
-   Driver: C:\Program Files\Intel\Media SDK\mfx_mft_h265ve_32.dll, 7.16.0010.0013 (English), 11/24/2016 21:21:08, 1498552 bytes
-   Driver: C:\Program Files\Intel\Media SDK\mfx_mft_encrypt_32.dll, 7.16.0010.0013 (English), 11/24/2016 21:20:50, 1345592 bytes
-   Driver: C:\Program Files\Intel\Media SDK\c_32.cpa, 11/24/2016 13:21:52, 846855 bytes
-   Driver: C:\Program Files\Intel\Media SDK\cpa_32.vp, 11/24/2016 13:21:52, 993 bytes
-   Driver: C:\Program Files\Intel\Media SDK\dev_32.vp, 11/24/2016 13:21:52, 21523 bytes
-   Driver: C:\Program Files\Intel\Media SDK\he_32.vp, 11/24/2016 13:21:52, 64221 bytes
-   Driver: C:\Program Files\Intel\Media SDK\mj_32.vp, 11/24/2016 13:21:56, 59409 bytes
-   Driver: C:\Program Files\Intel\Media SDK\h265e_32.vp, 11/24/2016 13:21:52, 65813 bytes
-   Driver: C:\Program Files\Intel\Media SDK\libmfxhw64.dll, 7.16.0009.0029 (English), 11/24/2016 21:20:48, 9310528 bytes
-   Driver: C:\Program Files\Intel\Media SDK\mfxplugin64_hw.dll, 1.16.0009.0029 (English), 11/24/2016 21:21:04, 4923600 bytes
-   Driver: C:\Program Files\Intel\Media SDK\mfx_mft_h264ve_64.dll, 7.16.0010.0013 (English), 11/24/2016 21:21:04, 1842392 bytes
-   Driver: C:\Program Files\Intel\Media SDK\mfx_mft_mjpgvd_64.dll, 7.16.0010.0013 (English), 11/24/2016 21:21:22, 1700048 bytes
-   Driver: C:\Program Files\Intel\Media SDK\mfx_mft_vp8vd_64.dll, 7.16.0010.0013 (English), 11/24/2016 21:21:42, 1708752 bytes
-   Driver: C:\Program Files\Intel\Media SDK\mfx_mft_h265ve_64.dll, 7.16.0010.0013 (English), 11/24/2016 21:21:10, 1868152 bytes
-   Driver: C:\Program Files\Intel\Media SDK\mfx_mft_encrypt_64.dll, 7.16.0010.0013 (English), 11/24/2016 21:20:56, 1657944 bytes
-   Driver: C:\Program Files\Intel\Media SDK\c_64.cpa, 11/24/2016 13:21:52, 1519616 bytes
-   Driver: C:\Program Files\Intel\Media SDK\cpa_64.vp, 11/24/2016 13:21:52, 993 bytes
-   Driver: C:\Program Files\Intel\Media SDK\dev_64.vp, 11/24/2016 13:21:52, 21523 bytes
-   Driver: C:\Program Files\Intel\Media SDK\he_64.vp, 11/24/2016 13:21:52, 13153 bytes
-   Driver: C:\Program Files\Intel\Media SDK\mj_64.vp, 11/24/2016 13:21:56, 12625 bytes
-   Driver: C:\Program Files\Intel\Media SDK\h265e_64.vp, 11/24/2016 13:21:52, 13777 bytes
-   Driver: C:\Windows\System32\DriverStore\FileRepository\ki119560.inf_amd64_5a492b6b44b20fba\igxpco64.dll, 1.03.0023.0000 (English), 11/24/2016 21:19:50, 220160 bytes
-   Driver: C:\Windows\System32\DriverStore\FileRepository\ki119560.inf_amd64_5a492b6b44b20fba\DisplayAudiox64.cab, 11/24/2016 13:21:52, 935277 bytes
-
-     Name: PCI standard host CPU bridge
-Device ID: PCI\VEN_8086&DEV_591F&SUBSYS_07DB1028&REV_05\3&11583659&1&00
-   Driver: n/a
-
-     Name: Intel(R) Serial IO I2C Host Controller - A2E1
-Device ID: PCI\VEN_8086&DEV_A2E1&SUBSYS_07DB1028&REV_00\3&11583659&1&A9
-   Driver: C:\Windows\system32\DRIVERS\iaLPSS2i_I2C.sys, 30.100.1633.0003 (English), 3/18/2017 13:56:28, 165376 bytes
 
 ------------------
 DirectShow Filters
@@ -834,14 +535,17 @@ WDM Streaming Capture Devices:
 Realtek HD Audio Stereo input,0x00200000,1,1,ksproxy.ax,10.00.15063.0000
 Realtek HD Audio Line input,0x00200000,1,1,ksproxy.ax,10.00.15063.0000
 Realtek HD Audio Mic input,0x00200000,1,1,ksproxy.ax,10.00.15063.0000
+{17CCA71B-ECD7-11D0-B908-00A0C9223196},0x00200000,2,2,ksproxy.ax,10.00.15063.0000
 ,0x00000000,0,0,,
 ,0x00000000,0,0,,
 
 WDM Streaming Rendering Devices:
 Realtek HDA SPDIF Out,0x00200000,1,1,ksproxy.ax,10.00.15063.0000
 Realtek HD Audio output,0x00200000,1,1,ksproxy.ax,10.00.15063.0000
+{17CCA71B-ECD7-11D0-B908-00A0C9223196},0x00200000,2,2,ksproxy.ax,10.00.15063.0000
 ,0x00000000,0,0,,
 ,0x00000000,0,0,,
+{17CCA71B-ECD7-11D0-B908-00A0C9223196},0x00200000,1,1,ksproxy.ax,10.00.15063.0000
 
 BDA Network Providers:
 Microsoft ATSC Network Provider,0x00200000,0,1,MSDvbNP.ax,10.00.15063.0000
@@ -867,12 +571,12 @@ WDM Streaming Communication Transforms:
 Tee/Sink-to-Sink Converter,0x00200000,1,1,ksproxy.ax,10.00.15063.0000
 
 Audio Renderers:
-DELL U2417H-0 (2- NVIDIA High Definition Audio),0x00200000,1,0,quartz.dll,10.00.15063.0138
+DELL U2417H-8 (2- NVIDIA High Definition Audio),0x00200000,1,0,quartz.dll,10.00.15063.0138
 Default DirectSound Device,0x00800000,1,0,quartz.dll,10.00.15063.0138
 Default WaveOut Device,0x00200000,1,0,quartz.dll,10.00.15063.0138
 DirectSound: DELL U2417H-0 (2- NVIDIA High Definition Audio),0x00200000,1,0,quartz.dll,10.00.15063.0138
 DirectSound: DELL U2417H-8 (2- NVIDIA High Definition Audio),0x00200000,1,0,quartz.dll,10.00.15063.0138
-DELL U2417H-8 (2- NVIDIA High Definition Audio),0x00200000,1,0,quartz.dll,10.00.15063.0138
+DELL U2417H-0 (2- NVIDIA High Definition Audio),0x00200000,1,0,quartz.dll,10.00.15063.0138
 
 
 ----------------------------
@@ -1288,109 +992,147 @@ Diagnostics
 
 Windows Error Reporting:
 +++ WER0 +++:
-Fault bucket 127974333587, type 5
-Event Name: StoreAgentInstallFailure1
+Fault bucket , type 0
+Event Name: LiveKernelEvent
 Response: Not available
 Cab Id: 0
 
 Problem signature:
-P1: Update;taskhostw
-P2: 80073d02
-P3: 15063
-P4: 540
-P5: Windows.Desktop
-P6: 4
-P7: 
-P8: 
+P1: 190
+P2: 1
+P3: fffffa098080c600
+P4: fffffa09800c9910
+P5: fffffa0980816490
+P6: 10_0_15063
+P7: 0_0
+P8: 256_1
 P9: 
 P10: 
 
 
 +++ WER1 +++:
-Fault bucket 128039887043, type 5
-Event Name: WindowsUpdateFailure3
+Fault bucket , type 0
+Event Name: LiveKernelEvent
 Response: Not available
 Cab Id: 0
 
 Problem signature:
-P1: 10.0.15063.502
-P2: 80073d02
-P3: 3905CCFC-8041-4200-AEC2-B69EFCFD7D0C
-P4: Install
-P5: 1
-P6: 0
-P7: 0
-P8: Update;taskhostw
-P9: {855E8A7C-ECB4-4CA3-B045-1DFA50104289}
-P10: 0
+P1: 190
+P2: 1
+P3: fffffa098080c600
+P4: fffffa09800c9910
+P5: fffffa0980816490
+P6: 10_0_15063
+P7: 0_0
+P8: 256_1
+P9: 
+P10: 
 
 
 +++ WER2 +++:
-Fault bucket , type 0
-Event Name: StoreAgentInstallFailure1
+Fault bucket 109065804961, type 1
+Event Name: APPCRASH
 Response: Not available
 Cab Id: 0
 
 Problem signature:
-P1: Update;taskhostw
-P2: 80073d02
-P3: 15063
-P4: 540
-P5: Windows.Desktop
-P6: 4
+P1: imperoclient.exe
+P2: 6.0.45.0
+P3: 58c18d69
+P4: KERNELBASE.dll
+P5: 10.0.15063.502
+P6: c3955624
+P7: c06d007e
+P8: 000eb802
+P9: 
+P10: 
+
+
++++ WER3 +++:
+Fault bucket 109065804927, type 1
+Event Name: APPCRASH
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: ImperoWinlogonApplication.exe
+P2: 6.0.45.0
+P3: 58c18d6f
+P4: KERNELBASE.dll
+P5: 10.0.15063.502
+P6: c3955624
+P7: c06d007e
+P8: 000eb802
+P9: 
+P10: 
+
+
++++ WER4 +++:
+Fault bucket , type 0
+Event Name: APPCRASH
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: imperoclient.exe
+P2: 6.0.45.0
+P3: 58c18d69
+P4: KERNELBASE.dll
+P5: 10.0.15063.502
+P6: c3955624
+P7: c06d007e
+P8: 000eb802
+P9: 
+P10: 
+
+
++++ WER5 +++:
+Fault bucket , type 0
+Event Name: APPCRASH
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: ImperoWinlogonApplication.exe
+P2: 6.0.45.0
+P3: 58c18d6f
+P4: KERNELBASE.dll
+P5: 10.0.15063.502
+P6: c3955624
+P7: c06d007e
+P8: 000eb802
+P9: 
+P10: 
+
+
++++ WER6 +++:
+Fault bucket 125730739576, type 5
+Event Name: PerfWatsonVS12Data
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: PerfWatsonTcdb
+P2: 0
+P3: 0
+P4: 0
+P5: 0
+P6: 
 P7: 
 P8: 
 P9: 
 P10: 
 
 
-+++ WER3 +++:
-Fault bucket , type 0
-Event Name: WindowsUpdateFailure3
-Response: Not available
-Cab Id: 0
-
-Problem signature:
-P1: 10.0.15063.502
-P2: 80073d02
-P3: 3905CCFC-8041-4200-AEC2-B69EFCFD7D0C
-P4: Install
-P5: 1
-P6: 0
-P7: 0
-P8: Update;taskhostw
-P9: {855E8A7C-ECB4-4CA3-B045-1DFA50104289}
-P10: 0
-
-
-+++ WER4 +++:
-Fault bucket , type 0
-Event Name: WindowsUpdateFailure3
-Response: Not available
-Cab Id: 0
-
-Problem signature:
-P1: 10.0.15063.502
-P2: 80073d02
-P3: 3905CCFC-8041-4200-AEC2-B69EFCFD7D0C
-P4: Install
-P5: 1
-P6: 0
-P7: 0
-P8: Update;taskhostw
-P9: {855E8A7C-ECB4-4CA3-B045-1DFA50104289}
-P10: 0
-
-
-+++ WER5 +++:
-Fault bucket 129528915200, type 5
++++ WER7 +++:
+Fault bucket 129401945468, type 5
 Event Name: RADAR_PRE_LEAK_64
 Response: Not available
 Cab Id: 0
 
 Problem signature:
-P1: UE4Editor.exe
-P2: 4.17.1.0
+P1: Illustrator.exe
+P2: 21.1.0.326
 P3: 10.0.15063.2.0.0
 P4: 
 P5: 
@@ -1401,75 +1143,37 @@ P9:
 P10: 
 
 
-+++ WER6 +++:
-Fault bucket 133524680543, type 5
-Event Name: MoAppHang
++++ WER8 +++:
+Fault bucket 129399008028, type 5
+Event Name: RADAR_PRE_LEAK_64
 Response: Not available
 Cab Id: 0
 
 Problem signature:
-P1: Microsoft.MicrosoftEdge_40.15063.0.0_neutral__8wekyb3d8bbwe
-P2: praid:ContentProcess
-P3: 11.0.15063.483
-P4: 595f2577
-P5: 7dd5
-P6: 133120
+P1: Substance Painter.exe
+P2: 0.0.0.0
+P3: 10.0.15063.2.0.0
+P4: 
+P5: 
+P6: 
 P7: 
 P8: 
 P9: 
 P10: 
 
 
-+++ WER7 +++:
-Fault bucket 120757540147, type 4
-Event Name: APPCRASH
-Response: Not available
-Cab Id: 0
-
-Problem signature:
-P1: WSCommCntr4.exe
-P2: 4.0.3.0
-P3: 558a3b31
-P4: combase.dll
-P5: 10.0.15063.296
-P6: 91412db8
-P7: c0000005
-P8: 00000000000c78bf
-P9: 
-P10: 
-
-
-+++ WER8 +++:
-Fault bucket , type 0
-Event Name: APPCRASH
-Response: Not available
-Cab Id: 0
-
-Problem signature:
-P1: WSCommCntr4.exe
-P2: 4.0.3.0
-P3: 558a3b31
-P4: combase.dll
-P5: 10.0.15063.296
-P6: 91412db8
-P7: c0000005
-P8: 00000000000c78bf
-P9: 
-P10: 
-
-
 +++ WER9 +++:
-Fault bucket 129465969578, type 5
-Event Name: RADAR_PRE_LEAK_64
+Fault bucket 125730739576, type 5
+Event Name: PerfWatsonVS12Data
 Response: Not available
 Cab Id: 0
 
 Problem signature:
-P1: Adobe Media Encoder.exe
-P2: 11.1.2.35
-P3: 10.0.15063.2.0.0
-P4: 
-P5: 
+P1: PerfWatsonTcdb
+P2: 0
+P3: 0
+P4: 0
+P5: 0
 P6: 
 P7: 
 P8: 
