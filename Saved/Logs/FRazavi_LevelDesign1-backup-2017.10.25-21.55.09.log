@@ -1,0 +1,915 @@
+﻿Log file open, 10/25/17 14:17:48
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: FRazavi_LevelDesign1
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(-1338647511) SRandInit(-1338647510).
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.311122
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3658906
+LogInit: Engine Version: 4.17.2-3658906+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Sep 22 2017 13:47:16
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.10.25-21.17.50:953][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.25-21.17.50:953][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.10.25-21.17.50:998][  0]LogInit: Computer: FARANAKPC
+[2017.10.25-21.17.50:998][  0]LogInit: User: Faranak
+[2017.10.25-21.17.50:998][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.10.25-21.17.50:998][  0]LogInit: High frequency timer resolution =2.533208 MHz
+[2017.10.25-21.17.50:999][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.10.25-21.17.50:999][  0]LogMemory: Platform Memory Stats for Windows
+[2017.10.25-21.17.50:999][  0]LogMemory: Process Physical Memory: 278.09 MB used, 278.09 MB peak
+[2017.10.25-21.17.50:999][  0]LogMemory: Process Virtual Memory: 274.19 MB used, 274.19 MB peak
+[2017.10.25-21.17.50:999][  0]LogMemory: Physical Memory: 5956.06 MB used,  10350.97 MB free, 16307.03 MB total
+[2017.10.25-21.17.50:999][  0]LogMemory: Virtual Memory: 669.05 MB used,  10350.97 MB free, 134217728.00 MB total
+[2017.10.25-21.17.52:426][  0]LogInit: Using OS detected language (en-US).
+[2017.10.25-21.17.52:427][  0]LogInit: Using OS detected locale (en-US).
+[2017.10.25-21.17.52:441][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.10.25-21.17.55:154][  0]LogD3D11RHI: D3D11 adapters:
+[2017.10.25-21.17.55:298][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970M' (Feature Level 11_0)
+[2017.10.25-21.17.55:298][  0]LogD3D11RHI:       3040/0/8153 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.10.25-21.17.55:315][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2017.10.25-21.17.55:315][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.10.25-21.17.55:319][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.10.25-21.17.55:319][  0]LogD3D11RHI:       0/0/8153 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.10.25-21.17.55:320][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.10.25-21.17.55:352][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.10.25-21.17.55:352][  0]LogD3D11RHI:     GPU DeviceId: 0x13d8 (for the marketing name, search the web for "GPU Device Id")
+[2017.10.25-21.17.55:352][  0]LogWindows: EnumDisplayDevices:
+[2017.10.25-21.17.55:352][  0]LogWindows:    0. 'Intel(R) HD Graphics 4600' (P:1 D:1)
+[2017.10.25-21.17.55:353][  0]LogWindows:    1. 'Intel(R) HD Graphics 4600' (P:0 D:1)
+[2017.10.25-21.17.55:354][  0]LogWindows:    2. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.10.25-21.17.55:354][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.10.25-21.17.55:354][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970M
+[2017.10.25-21.17.55:354][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.10.25-21.17.55:354][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.10.25-21.17.55:354][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.10.25-21.17.55:483][  0]LogD3D11RHI: Async texture creation enabled
+[2017.10.25-21.17.55:510][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.10.25-21.17.55:511][  0]LogShaderCompilers: Guid format shader working directory is -13 characters bigger than the processId version (../../../../../../Users/Faranak/Desktop/FRazavi_LevelDesign1/Intermediate/Shaders/WorkingDirectory/58868/).
+[2017.10.25-21.17.55:512][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Faranak/AppData/Local/Temp/UnrealShaderWorkingDir/7436EC6D4739FFD261D187A3CAD80CEC/'.
+[2017.10.25-21.17.55:512][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.10.25-21.17.59:227][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.10.25-21.17.59:443][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.10.25-21.17.59:660][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.10.25-21.17.59:882][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.10.25-21.18.00:113][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.10.25-21.18.00:330][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.10.25-21.18.00:547][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.10.25-21.18.00:766][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.10.25-21.18.00:957][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.10.25-21.18.01:168][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.10.25-21.18.01:380][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.10.25-21.18.01:591][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.10.25-21.18.01:802][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.10.25-21.18.02:013][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.10.25-21.18.02:224][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.10.25-21.18.02:647][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.10.25-21.18.02:648][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.10.25-21.18.02:818][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.10.25-21.18.03:145][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.10.25-21.18.03:271][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.10.25-21.18.03:483][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.10.25-21.18.03:695][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.10.25-21.18.03:907][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.10.25-21.18.04:124][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.10.25-21.18.04:125][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.10.25-21.18.06:221][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.10.25-21.18.06:551][  0]LogDerivedDataCache: Loaded boot cache 0.33s 93MB C:/Users/Faranak/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.10.25-21.18.06:551][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Faranak/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.10.25-21.18.06:552][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Faranak/Desktop/FRazavi_LevelDesign1/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.10.25-21.18.06:552][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.10.25-21.18.06:552][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Faranak/Desktop/FRazavi_LevelDesign1/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.10.25-21.18.06:552][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.10.25-21.18.06:618][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.10.25-21.18.06:634][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Faranak/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.10.25-21.18.06:673][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.10.25-21.18.06:674][  0]LogSlate: Using Freetype 2.6.0
+[2017.10.25-21.18.06:676][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.25-21.18.06:677][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.25-21.18.08:790][  0]LogAssetRegistry: FAssetRegistry took 0.0402 seconds to start up
+[2017.10.25-21.18.09:295][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.25-21.18.09:875][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.10.25-21.18.11:155][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.10.25-21.18.11:336][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.10.25-21.18.11:337][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.10.25-21.18.11:337][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.10.25-21.18.11:337][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.10.25-21.18.11:337][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.10.25-21.18.12:768][  0]LogNetVersion: FRazavi_LevelDesign1 , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2915890311)
+[2017.10.25-21.18.13:621][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.166000 seconds
+[2017.10.25-21.18.13:640][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.10.25-21.18.13:640][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
+[2017.10.25-21.18.13:641][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.10.25-21.18.13:948][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.10.25-21.18.24:867][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.10.25-21.18.25:010][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.10.25-21.18.27:553][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.10.25-21.18.29:280][  0]SourceControl: Source control is disabled
+[2017.10.25-21.18.29:280][  0]SourceControl: Source control is disabled
+[2017.10.25-21.18.29:490][  0]SourceControl: Source control is disabled
+[2017.10.25-21.18.29:697][  0]SourceControl: Source control is disabled
+[2017.10.25-21.18.32:233][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.10.25-21.18.33:298][  0]LogOcInput: OculusInput pre-init called
+[2017.10.25-21.18.34:391][  0]LogEngine: Initializing Engine...
+[2017.10.25-21.18.34:398][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.10.25-21.18.36:070][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.10.25-21.18.36:070][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.10.25-21.18.36:613][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.10.25-21.18.36:638][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.25-21.18.36:693][  0]LogInit: FAudioDevice initialized.
+[2017.10.25-21.18.37:166][  0]LogDerivedDataCache: Saved boot cache 0.47s 93MB C:/Users/Faranak/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.10.25-21.18.37:210][  0]LogInit: Texture streaming: Enabled
+[2017.10.25-21.18.37:695][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.10.25-21.18.38:639][  0]LogInit: Transaction tracking system initialized
+[2017.10.25-21.18.39:985][  0]BlueprintLog: New page: Editor Load
+[2017.10.25-21.18.43:835][  0]LocalizationService: Localization service is disabled
+[2017.10.25-21.18.47:925][  0]LogConsoleResponse: Display: 
+[2017.10.25-21.18.48:640][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.10.25-21.18.48:640][  0]LogCook: Display: Mobile HDR setting 1
+[2017.10.25-21.18.48:640][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.10.25-21.18.49:365][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Faranak/Desktop/FRazavi_LevelDesign1/Content/' took 0.03s
+[2017.10.25-21.18.53:321][  0]SourceControl: Source control is disabled
+[2017.10.25-21.18.53:322][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Faranak/Desktop/FRazavi_LevelDesign1/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.25-21.18.53:323][  0]LightingResults: New page: Lighting Build
+[2017.10.25-21.18.53:501][  0]MapCheck: New page: Map Check
+[2017.10.25-21.18.53:501][  0]LightingResults: New page: Lighting Build
+[2017.10.25-21.18.56:594][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.10.25-21.18.56:740][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.25-21.18.56:951][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.25-21.18.57:213][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 261.199ms to complete.
+[2017.10.25-21.18.57:214][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 3.892
+[2017.10.25-21.18.57:397][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.10.25-21.18.57:398][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.10.25-21.18.57:684][  0]LogCollectionManager: Loaded 0 collections in 0.007136 seconds
+[2017.10.25-21.18.57:936][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Faranak/Desktop/FRazavi_LevelDesign1/Saved/Collections/' took 0.01s
+[2017.10.25-21.18.57:936][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Faranak/Desktop/FRazavi_LevelDesign1/Content/Developers/Faranak/Collections/' took 0.01s
+[2017.10.25-21.18.57:936][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Faranak/Desktop/FRazavi_LevelDesign1/Content/Collections/' took 0.01s
+[2017.10.25-21.18.57:936][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.10.25-21.18.57:969][  0]LogContentBrowser: Native class hierarchy populated in 0.0328 seconds. Added 2386 classes and 500 folders.
+[2017.10.25-21.18.58:253][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0024 seconds. Added 0 classes and 0 folders.
+[2017.10.25-21.18.58:436][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0023 seconds. Added 0 classes and 0 folders.
+[2017.10.25-21.18.58:626][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0035 seconds. Added 1 classes and 2 folders.
+[2017.10.25-21.18.59:334][  0]LogSlate: Took 0.001061 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.10.25-21.18.59:343][  0]LogSlate: Took 0.000742 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.10.25-21.18.59:363][  0]LogSlate: Took 0.000765 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.10.25-21.18.59:791][  0]LogRenderer: Reallocating scene render targets to support 1068x556 Format 9 NumSamples 1 (Frame:1).
+[2017.10.25-21.19.00:484][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0025 seconds. Added 1 classes and 2 folders.
+[2017.10.25-21.19.00:485][  0]LogLoad: (Engine Initialization) Total time: 75.30 seconds
+[2017.10.25-21.19.00:485][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.10.25-21.19.00:486][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.10.25-21.19.00:486][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.10.25-21.19.00:560][  0]LogContentStreaming: Texture pool size now 400 MB
+[2017.10.25-21.19.00:781][  0]LogSlate: Took 0.000598 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.25-21.19.03:149][  4]LogAssetRegistry: Asset discovery search completed in 54.3829 seconds
+[2017.10.25-21.19.03:158][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000002 seconds (found 0 objects)
+[2017.10.25-21.19.03:158][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000222 seconds (updated 0 objects)
+[2017.10.25-21.19.03:227][  4]LogSlate: Took 0.000658 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.25-21.25.16:982][744]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.10.25-21.25.17:144][744]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.10.25-21.25.17:144][744]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.25-21.25.17:146][744]PIE: New page: PIE session: ThirdPersonExampleMap (Oct 25, 2017, 7:25:17 AM)
+[2017.10.25-21.25.17:146][744]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.10.25-21.25.18:279][744]LogPlayLevel: PIE: StaticDuplicateObject took: (1.132273s)
+[2017.10.25-21.25.18:282][744]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.10.25-21.25.18:283][744]LogPlayLevel: PIE: World Init took: (0.004221s)
+[2017.10.25-21.25.18:285][744]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (1.138911s)
+[2017.10.25-21.25.18:354][744]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.25-21.25.18:412][744]LogInit: FAudioDevice initialized.
+[2017.10.25-21.25.18:670][744]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.10.25-21.25.18:743][744]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2017.10.25-14.25.18
+[2017.10.25-21.25.18:748][744]LogLinker: Warning: Can't find file '/Game/Subway/IGC/IGC1'
+[2017.10.25-21.25.18:749][744]LogLinker: Warning: Can't find file '/Game/Subway/IGC/IGC1'
+[2017.10.25-21.25.18:750][744]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Subway/IGC/IGC1.IGC1'
+[2017.10.25-21.25.18:819][744]LogWorld: Bringing up level for play took: 0.141006
+[2017.10.25-21.25.19:038][744]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0026 seconds. Added 11 classes and 0 folders.
+[2017.10.25-21.25.19:052][744]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 1.142
+[2017.10.25-21.25.19:054][744]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.10.25-21.25.52:096][750]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.10.25-21.25.52:243][750]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.10.25-21.27.07:825][141]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Chair3)
+[2017.10.25-21.27.38:333][911]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.10.25-21.27.38:392][911]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.10.25-21.27.38:392][911]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.25-21.27.38:393][911]PIE: New page: PIE session: ThirdPersonExampleMap (Oct 25, 2017, 7:27:38 AM)
+[2017.10.25-21.27.38:393][911]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.10.25-21.27.39:512][911]LogPlayLevel: PIE: StaticDuplicateObject took: (1.119047s)
+[2017.10.25-21.27.39:517][911]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.10.25-21.27.39:518][911]LogPlayLevel: PIE: World Init took: (0.005404s)
+[2017.10.25-21.27.39:519][911]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (1.125573s)
+[2017.10.25-21.27.39:578][911]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.25-21.27.39:614][911]LogInit: FAudioDevice initialized.
+[2017.10.25-21.27.39:780][911]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.10.25-21.27.39:822][911]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2017.10.25-14.27.39
+[2017.10.25-21.27.40:016][911]LogWorld: Bringing up level for play took: 0.232762
+[2017.10.25-21.27.40:028][911]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 2.118
+[2017.10.25-21.27.40:030][911]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.10.25-21.28.05:728][728]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.10.25-21.28.05:940][728]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.10.25-21.28.18:455][ 41]LogSlate: Took 0.000558 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.25-21.29.14:196][433]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.10.25-21.29.18:604][539]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.10.25-21.29.27:567][765]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.10.25-21.31.25:007][877]Cmd: TRANSACTION UNDO
+[2017.10.25-21.31.25:007][877]LogEditorTransaction: Undo Move Actors
+[2017.10.25-21.31.26:060][877]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.CylinderBrush30.BrushComponent0) Component already registered.
+[2017.10.25-21.31.26:066][877]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush52.BrushComponent0) Component already registered.
+[2017.10.25-21.31.26:067][877]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush53.BrushComponent0) Component already registered.
+[2017.10.25-21.31.26:067][877]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush49.BrushComponent0) Component already registered.
+[2017.10.25-21.31.26:068][877]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.CylinderBrush48.BrushComponent0) Component already registered.
+[2017.10.25-21.31.26:069][877]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.CylinderBrush49.BrushComponent0) Component already registered.
+[2017.10.25-21.31.26:072][877]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush79.BrushComponent0) Component already registered.
+[2017.10.25-21.31.26:073][877]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush74.BrushComponent0) Component already registered.
+[2017.10.25-21.31.26:075][877]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.CylinderBrush36.BrushComponent0) Component already registered.
+[2017.10.25-21.31.26:075][877]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush58.BrushComponent0) Component already registered.
+[2017.10.25-21.31.26:076][877]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush59.BrushComponent0) Component already registered.
+[2017.10.25-21.31.26:078][877]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.CylinderBrush39.BrushComponent0) Component already registered.
+[2017.10.25-21.31.26:079][877]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush3.BrushComponent0) Component already registered.
+[2017.10.25-21.31.26:080][877]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.CylinderBrush4.BrushComponent0) Component already registered.
+[2017.10.25-21.31.26:263][877]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.LinearStairBrush.BrushComponent0) Component already registered.
+[2017.10.25-21.31.26:264][877]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.CylinderBrush.BrushComponent0) Component already registered.
+[2017.10.25-21.31.26:267][877]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.L-FrontWall3.BrushComponent0) Component already registered.
+[2017.10.25-21.31.26:268][877]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.CylinderBrush15.BrushComponent0) Component already registered.
+[2017.10.25-21.31.26:270][877]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush5.BrushComponent0) Component already registered.
+[2017.10.25-21.31.26:272][877]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.CylinderBrush16.BrushComponent0) Component already registered.
+[2017.10.25-21.31.26:274][877]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.CylinderBrush17.BrushComponent0) Component already registered.
+[2017.10.25-21.31.26:275][877]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.CylinderBrush22.BrushComponent0) Component already registered.
+[2017.10.25-21.31.26:275][877]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush26.BrushComponent0) Component already registered.
+[2017.10.25-21.31.26:276][877]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush20.BrushComponent0) Component already registered.
+[2017.10.25-21.31.26:277][877]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush21.BrushComponent0) Component already registered.
+[2017.10.25-21.31.26:279][877]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.WhitePaper40.BrushComponent0) Component already registered.
+[2017.10.25-21.31.26:280][877]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.WhitePaper35.BrushComponent0) Component already registered.
+[2017.10.25-21.31.26:293][877]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush90.BrushComponent0) Component already registered.
+[2017.10.25-21.31.26:294][877]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.WhitePaper31.BrushComponent0) Component already registered.
+[2017.10.25-21.31.26:295][877]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.WhitePaper32.BrushComponent0) Component already registered.
+[2017.10.25-21.31.26:306][877]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush37.BrushComponent0) Component already registered.
+[2017.10.25-21.31.26:307][877]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Can1.BrushComponent0) Component already registered.
+[2017.10.25-21.31.26:308][877]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.WhitePaper55.BrushComponent0) Component already registered.
+[2017.10.25-21.31.26:312][877]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.SphereBrush16.BrushComponent0) Component already registered.
+[2017.10.25-21.31.26:331][877]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.SphereBrush13.BrushComponent0) Component already registered.
+[2017.10.25-21.31.26:340][877]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush33.BrushComponent0) Component already registered.
+[2017.10.25-21.31.26:342][877]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush32.BrushComponent0) Component already registered.
+[2017.10.25-21.31.26:343][877]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.TableHandleSubtractive2.BrushComponent0) Component already registered.
+[2017.10.25-21.31.26:344][877]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush85.BrushComponent0) Component already registered.
+[2017.10.25-21.31.26:345][877]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush70_11.BrushComponent0) Component already registered.
+[2017.10.25-21.31.26:345][877]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush71.BrushComponent0) Component already registered.
+[2017.10.25-21.31.26:347][877]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.WhitePaper.BrushComponent0) Component already registered.
+[2017.10.25-21.31.26:350][877]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush67.BrushComponent0) Component already registered.
+[2017.10.25-21.31.26:352][877]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.CylinderBrush53.BrushComponent0) Component already registered.
+[2017.10.25-21.31.26:354][877]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush6.BrushComponent0) Component already registered.
+[2017.10.25-21.31.26:358][877]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush86.BrushComponent0) Component already registered.
+[2017.10.25-21.31.26:359][877]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.WhitePaper28.BrushComponent0) Component already registered.
+[2017.10.25-21.31.26:360][877]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.WhitePaper29.BrushComponent0) Component already registered.
+[2017.10.25-21.31.26:360][877]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.WhitePaper10.BrushComponent0) Component already registered.
+[2017.10.25-21.31.26:361][877]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.WhitePaper11.BrushComponent0) Component already registered.
+[2017.10.25-21.31.26:363][877]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.WhitePaper19.BrushComponent0) Component already registered.
+[2017.10.25-21.31.26:364][877]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.WhitePaper14.BrushComponent0) Component already registered.
+[2017.10.25-21.31.27:340][895]Cmd: TRANSACTION UNDO
+[2017.10.25-21.31.27:340][895]LogEditorTransaction: Undo Animatable Property Changed
+[2017.10.25-21.31.31:791][ 93]Cmd: TRANSACTION UNDO
+[2017.10.25-21.31.31:792][ 93]LogEditorTransaction: Undo Move Actors
+[2017.10.25-21.31.32:846][ 93]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.CylinderBrush30.BrushComponent0) Component already registered.
+[2017.10.25-21.31.32:852][ 93]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush52.BrushComponent0) Component already registered.
+[2017.10.25-21.31.32:853][ 93]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush53.BrushComponent0) Component already registered.
+[2017.10.25-21.31.32:853][ 93]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush49.BrushComponent0) Component already registered.
+[2017.10.25-21.31.32:855][ 93]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.CylinderBrush48.BrushComponent0) Component already registered.
+[2017.10.25-21.31.32:855][ 93]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.CylinderBrush49.BrushComponent0) Component already registered.
+[2017.10.25-21.31.32:858][ 93]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush79.BrushComponent0) Component already registered.
+[2017.10.25-21.31.32:858][ 93]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush74.BrushComponent0) Component already registered.
+[2017.10.25-21.31.32:860][ 93]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.CylinderBrush36.BrushComponent0) Component already registered.
+[2017.10.25-21.31.32:861][ 93]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush58.BrushComponent0) Component already registered.
+[2017.10.25-21.31.32:861][ 93]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush59.BrushComponent0) Component already registered.
+[2017.10.25-21.31.32:864][ 93]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.CylinderBrush39.BrushComponent0) Component already registered.
+[2017.10.25-21.31.32:865][ 93]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush3.BrushComponent0) Component already registered.
+[2017.10.25-21.31.32:866][ 93]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.CylinderBrush4.BrushComponent0) Component already registered.
+[2017.10.25-21.31.33:053][ 93]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.LinearStairBrush.BrushComponent0) Component already registered.
+[2017.10.25-21.31.33:053][ 93]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.CylinderBrush.BrushComponent0) Component already registered.
+[2017.10.25-21.31.33:055][ 93]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.L-FrontWall3.BrushComponent0) Component already registered.
+[2017.10.25-21.31.33:056][ 93]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.CylinderBrush15.BrushComponent0) Component already registered.
+[2017.10.25-21.31.33:057][ 93]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush5.BrushComponent0) Component already registered.
+[2017.10.25-21.31.33:059][ 93]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.CylinderBrush16.BrushComponent0) Component already registered.
+[2017.10.25-21.31.33:060][ 93]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.CylinderBrush17.BrushComponent0) Component already registered.
+[2017.10.25-21.31.33:060][ 93]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.CylinderBrush22.BrushComponent0) Component already registered.
+[2017.10.25-21.31.33:061][ 93]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush26.BrushComponent0) Component already registered.
+[2017.10.25-21.31.33:062][ 93]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush20.BrushComponent0) Component already registered.
+[2017.10.25-21.31.33:062][ 93]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush21.BrushComponent0) Component already registered.
+[2017.10.25-21.31.33:066][ 93]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.WhitePaper40.BrushComponent0) Component already registered.
+[2017.10.25-21.31.33:066][ 93]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.WhitePaper35.BrushComponent0) Component already registered.
+[2017.10.25-21.31.33:081][ 93]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush90.BrushComponent0) Component already registered.
+[2017.10.25-21.31.33:082][ 93]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.WhitePaper31.BrushComponent0) Component already registered.
+[2017.10.25-21.31.33:082][ 93]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.WhitePaper32.BrushComponent0) Component already registered.
+[2017.10.25-21.31.33:089][ 93]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush37.BrushComponent0) Component already registered.
+[2017.10.25-21.31.33:090][ 93]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Can1.BrushComponent0) Component already registered.
+[2017.10.25-21.31.33:091][ 93]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.WhitePaper55.BrushComponent0) Component already registered.
+[2017.10.25-21.31.33:095][ 93]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.SphereBrush16.BrushComponent0) Component already registered.
+[2017.10.25-21.31.33:113][ 93]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.SphereBrush13.BrushComponent0) Component already registered.
+[2017.10.25-21.31.33:122][ 93]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush33.BrushComponent0) Component already registered.
+[2017.10.25-21.31.33:124][ 93]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush32.BrushComponent0) Component already registered.
+[2017.10.25-21.31.33:124][ 93]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.TableHandleSubtractive2.BrushComponent0) Component already registered.
+[2017.10.25-21.31.33:126][ 93]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush85.BrushComponent0) Component already registered.
+[2017.10.25-21.31.33:126][ 93]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush70_11.BrushComponent0) Component already registered.
+[2017.10.25-21.31.33:127][ 93]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush71.BrushComponent0) Component already registered.
+[2017.10.25-21.31.33:129][ 93]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.WhitePaper.BrushComponent0) Component already registered.
+[2017.10.25-21.31.33:133][ 93]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush67.BrushComponent0) Component already registered.
+[2017.10.25-21.31.33:134][ 93]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.CylinderBrush53.BrushComponent0) Component already registered.
+[2017.10.25-21.31.33:134][ 93]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush6.BrushComponent0) Component already registered.
+[2017.10.25-21.31.33:137][ 93]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush86.BrushComponent0) Component already registered.
+[2017.10.25-21.31.33:138][ 93]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.WhitePaper28.BrushComponent0) Component already registered.
+[2017.10.25-21.31.33:139][ 93]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.WhitePaper29.BrushComponent0) Component already registered.
+[2017.10.25-21.31.33:139][ 93]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.WhitePaper10.BrushComponent0) Component already registered.
+[2017.10.25-21.31.33:140][ 93]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.WhitePaper11.BrushComponent0) Component already registered.
+[2017.10.25-21.31.33:142][ 93]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.WhitePaper19.BrushComponent0) Component already registered.
+[2017.10.25-21.31.33:142][ 93]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.WhitePaper14.BrushComponent0) Component already registered.
+[2017.10.25-21.31.34:502][129]Cmd: TRANSACTION UNDO
+[2017.10.25-21.31.34:502][129]LogEditorTransaction: Undo Animatable Property Changed
+[2017.10.25-21.31.39:259][326]Cmd: TRANSACTION UNDO
+[2017.10.25-21.31.39:259][326]LogEditorTransaction: Undo Move Actors
+[2017.10.25-21.31.40:319][326]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.CylinderBrush30.BrushComponent0) Component already registered.
+[2017.10.25-21.31.40:324][326]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush52.BrushComponent0) Component already registered.
+[2017.10.25-21.31.40:326][326]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush53.BrushComponent0) Component already registered.
+[2017.10.25-21.31.40:327][326]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush49.BrushComponent0) Component already registered.
+[2017.10.25-21.31.40:328][326]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.CylinderBrush48.BrushComponent0) Component already registered.
+[2017.10.25-21.31.40:329][326]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.CylinderBrush49.BrushComponent0) Component already registered.
+[2017.10.25-21.31.40:331][326]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush79.BrushComponent0) Component already registered.
+[2017.10.25-21.31.40:331][326]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush74.BrushComponent0) Component already registered.
+[2017.10.25-21.31.40:333][326]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.CylinderBrush36.BrushComponent0) Component already registered.
+[2017.10.25-21.31.40:334][326]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush58.BrushComponent0) Component already registered.
+[2017.10.25-21.31.40:334][326]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush59.BrushComponent0) Component already registered.
+[2017.10.25-21.31.40:337][326]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.CylinderBrush39.BrushComponent0) Component already registered.
+[2017.10.25-21.31.40:338][326]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush3.BrushComponent0) Component already registered.
+[2017.10.25-21.31.40:338][326]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.CylinderBrush4.BrushComponent0) Component already registered.
+[2017.10.25-21.31.40:520][326]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.LinearStairBrush.BrushComponent0) Component already registered.
+[2017.10.25-21.31.40:522][326]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.CylinderBrush.BrushComponent0) Component already registered.
+[2017.10.25-21.31.40:524][326]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.L-FrontWall3.BrushComponent0) Component already registered.
+[2017.10.25-21.31.40:525][326]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.CylinderBrush15.BrushComponent0) Component already registered.
+[2017.10.25-21.31.40:526][326]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush5.BrushComponent0) Component already registered.
+[2017.10.25-21.31.40:527][326]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.CylinderBrush16.BrushComponent0) Component already registered.
+[2017.10.25-21.31.40:528][326]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.CylinderBrush17.BrushComponent0) Component already registered.
+[2017.10.25-21.31.40:529][326]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.CylinderBrush22.BrushComponent0) Component already registered.
+[2017.10.25-21.31.40:530][326]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush26.BrushComponent0) Component already registered.
+[2017.10.25-21.31.40:530][326]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush20.BrushComponent0) Component already registered.
+[2017.10.25-21.31.40:531][326]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush21.BrushComponent0) Component already registered.
+[2017.10.25-21.31.40:534][326]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.WhitePaper40.BrushComponent0) Component already registered.
+[2017.10.25-21.31.40:534][326]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.WhitePaper35.BrushComponent0) Component already registered.
+[2017.10.25-21.31.40:548][326]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush90.BrushComponent0) Component already registered.
+[2017.10.25-21.31.40:549][326]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.WhitePaper31.BrushComponent0) Component already registered.
+[2017.10.25-21.31.40:549][326]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.WhitePaper32.BrushComponent0) Component already registered.
+[2017.10.25-21.31.40:557][326]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush37.BrushComponent0) Component already registered.
+[2017.10.25-21.31.40:558][326]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Can1.BrushComponent0) Component already registered.
+[2017.10.25-21.31.40:558][326]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.WhitePaper55.BrushComponent0) Component already registered.
+[2017.10.25-21.31.40:562][326]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.SphereBrush16.BrushComponent0) Component already registered.
+[2017.10.25-21.31.40:583][326]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.SphereBrush13.BrushComponent0) Component already registered.
+[2017.10.25-21.31.40:593][326]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush33.BrushComponent0) Component already registered.
+[2017.10.25-21.31.40:595][326]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush32.BrushComponent0) Component already registered.
+[2017.10.25-21.31.40:596][326]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.TableHandleSubtractive2.BrushComponent0) Component already registered.
+[2017.10.25-21.31.40:597][326]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush85.BrushComponent0) Component already registered.
+[2017.10.25-21.31.40:598][326]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush70_11.BrushComponent0) Component already registered.
+[2017.10.25-21.31.40:598][326]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush71.BrushComponent0) Component already registered.
+[2017.10.25-21.31.40:600][326]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.WhitePaper.BrushComponent0) Component already registered.
+[2017.10.25-21.31.40:607][326]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush67.BrushComponent0) Component already registered.
+[2017.10.25-21.31.40:608][326]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.CylinderBrush53.BrushComponent0) Component already registered.
+[2017.10.25-21.31.40:609][326]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush6.BrushComponent0) Component already registered.
+[2017.10.25-21.31.40:612][326]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush86.BrushComponent0) Component already registered.
+[2017.10.25-21.31.40:613][326]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.WhitePaper28.BrushComponent0) Component already registered.
+[2017.10.25-21.31.40:614][326]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.WhitePaper29.BrushComponent0) Component already registered.
+[2017.10.25-21.31.40:614][326]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.WhitePaper10.BrushComponent0) Component already registered.
+[2017.10.25-21.31.40:615][326]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.WhitePaper11.BrushComponent0) Component already registered.
+[2017.10.25-21.31.40:617][326]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.WhitePaper19.BrushComponent0) Component already registered.
+[2017.10.25-21.31.40:618][326]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.WhitePaper14.BrushComponent0) Component already registered.
+[2017.10.25-21.32.24:121][757]LogSlate: Took 0.000477 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.10.25-21.32.29:540][757]LogSavePackage: Save=14368.63ms
+[2017.10.25-21.32.29:540][757]LogSavePackage: Moving '../../../../../../Users/Faranak/Desktop/FRazavi_LevelDesign1/Saved/ThirdPersonExampleMap_Auto1714DEC4846ACE7DA3FE167AE8D4F5959.tmp' to '../../../../../../Users/Faranak/Desktop/FRazavi_LevelDesign1/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto1.umap'
+[2017.10.25-21.32.29:552][757]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Faranak/Desktop/FRazavi_LevelDesign1/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto1.umap
+[2017.10.25-21.32.29:571][757]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 14.551
+[2017.10.25-21.32.29:571][757]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 14.551
+[2017.10.25-21.32.29:581][757]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Subway/IGC/MiddleGate] ([1] browsable assets)...
+[2017.10.25-21.32.29:581][757]OBJ SavePackage: Finished generating thumbnails for package [/Game/Subway/IGC/MiddleGate]
+[2017.10.25-21.32.29:608][757]LogSavePackage: Save=19.22ms
+[2017.10.25-21.32.29:608][757]LogSavePackage: Moving '../../../../../../Users/Faranak/Desktop/FRazavi_LevelDesign1/Saved/MiddleGate_Auto15B0736A844A06ED20E9AC38FA8B28837.tmp' to '../../../../../../Users/Faranak/Desktop/FRazavi_LevelDesign1/Saved/Autosaves/Game/Subway/IGC/MiddleGate_Auto1.uasset'
+[2017.10.25-21.32.29:613][757]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Faranak/Desktop/FRazavi_LevelDesign1/Saved/Autosaves/Game/Subway/IGC/MiddleGate_Auto1.uasset
+[2017.10.25-21.32.29:614][757]LogFileHelpers: Auto-saving content packages took 0.036
+[2017.10.25-21.34.27:281][503]LogStaticMesh: Building static mesh BartGate...
+[2017.10.25-21.34.27:294][503]LogStaticMesh: Built static mesh [0.01s] /Game/Subway/BartGate.BartGate
+[2017.10.25-21.34.27:350][503]LogActorFactory: Actor Factory created BartGate
+[2017.10.25-21.34.29:493][503]LogEditor: Error: Actor 'Brush /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.MiddleGate-R' is marked pending kill and cannot be converted
+[2017.10.25-21.34.29:493][503]EditorErrors: New page: Actor Reattachment
+[2017.10.25-21.34.48:686][954]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Subway/BartGate" FILE="../../../../../../Users/Faranak/Desktop/FRazavi_LevelDesign1/Content/Subway/BartGate.uasset" SILENT=true
+[2017.10.25-21.34.48:739][954]LogSavePackage: Save=44.69ms
+[2017.10.25-21.34.48:739][954]LogSavePackage: Moving '../../../../../../Users/Faranak/Desktop/FRazavi_LevelDesign1/Saved/BartGate58CCBBE14AC8F87172D651BE8AAD89F5.tmp' to '../../../../../../Users/Faranak/Desktop/FRazavi_LevelDesign1/Content/Subway/BartGate.uasset'
+[2017.10.25-21.34.48:750][954]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Faranak/Desktop/FRazavi_LevelDesign1/Content/Subway/BartGate.uasset
+[2017.10.25-21.35.25:003][ 70]Cmd: DELETE
+[2017.10.25-21.35.25:003][ 70]Cmd: ACTOR DELETE
+[2017.10.25-21.35.25:046][ 70]LogEditorActor: Deleted Actor: Brush
+[2017.10.25-21.35.27:098][ 70]LogEditorActor: Deleted 1 Actors (2.092 secs)
+[2017.10.25-21.35.28:754][151]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BartGate2)
+[2017.10.25-21.35.47:720][886]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BartGate)
+[2017.10.25-21.35.48:765][921]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BartGate-Middle-L)
+[2017.10.25-21.35.50:846][989]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BartGate)
+[2017.10.25-21.36.28:085][ 96]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BartGate-Middle-L)
+[2017.10.25-21.36.29:388][125]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BartGate-Middle-L)
+[2017.10.25-21.36.32:929][216]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BartGate-Middle-R)
+[2017.10.25-21.36.34:889][267]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BartGate-Middle-L)
+[2017.10.25-21.36.57:019][848]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.10.25-21.37.01:865][993]Cmd: DELETE
+[2017.10.25-21.37.01:865][993]Cmd: ACTOR DELETE
+[2017.10.25-21.37.01:904][993]LogEditorActor: Deleted Actor: Brush
+[2017.10.25-21.37.03:904][993]LogEditorActor: Deleted 1 Actors (2.038 secs)
+[2017.10.25-21.37.04:962][ 26]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BartGate-Middle-L2)
+[2017.10.25-21.37.27:116][739]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BartGate-Middle-R)
+[2017.10.25-21.37.42:115][132]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.10.25-21.37.48:177][306]Cmd: DELETE
+[2017.10.25-21.37.48:177][306]Cmd: ACTOR DELETE
+[2017.10.25-21.37.48:221][306]LogEditorActor: Deleted Actor: Brush
+[2017.10.25-21.37.50:269][306]LogEditorActor: Deleted 1 Actors (2.091 secs)
+[2017.10.25-21.37.50:973][328]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BartGate-Middle-R2)
+[2017.10.25-21.38.33:101][688]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BartGate-Middle-L)
+[2017.10.25-21.38.43:193][986]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.10.25-21.38.46:917][128]Cmd: DELETE
+[2017.10.25-21.38.46:917][128]Cmd: ACTOR DELETE
+[2017.10.25-21.38.46:957][128]LogEditorActor: Deleted Actor: Brush
+[2017.10.25-21.38.49:002][128]LogEditorActor: Deleted 1 Actors (2.084 secs)
+[2017.10.25-21.38.49:574][157]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BartGate-Middle-L2)
+[2017.10.25-21.38.56:643][445]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BartGate-Middle-R)
+[2017.10.25-21.39.11:753][940]Cmd: DELETE
+[2017.10.25-21.39.11:754][940]Cmd: ACTOR DELETE
+[2017.10.25-21.39.11:793][940]LogEditorActor: Deleted Actor: Brush
+[2017.10.25-21.39.13:822][940]LogEditorActor: Deleted 1 Actors (2.068 secs)
+[2017.10.25-21.39.15:854][ 19]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BartGate-Middle-L2)
+[2017.10.25-21.39.27:700][394]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BartGate-Middle-R2)
+[2017.10.25-21.39.59:661][409]LogContentBrowser: Native class hierarchy updated for 'MaterialEditor' in 0.0028 seconds. Added 1 classes and 0 folders.
+[2017.10.25-21.39.59:672][409]LogMaterial: Missing cached shader map for material OrangeMaterial, compiling. 
+[2017.10.25-21.40.00:116][409]LogMaterial: Missing cached shader map for material OrangeMaterial, compiling. 
+[2017.10.25-21.40.00:193][409]LogMaterial: Missing cached shader map for material OrangeMaterial, compiling. 
+[2017.10.25-21.40.00:291][409]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.10.25-21.40.00:329][409]LogSlate: Took 0.000677 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.10.25-21.40.03:932][513]MaterialEditorStats: Base pass shader: 79 instructions
+[2017.10.25-21.40.03:932][513]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.10.25-21.40.03:932][513]MaterialEditorStats: Texture samplers: 3/16
+[2017.10.25-21.40.09:650][681]LogMaterial: Missing cached shader map for material OrangeMaterial, compiling. 
+[2017.10.25-21.40.09:707][681]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.10.25-21.40.11:765][738]LogMaterial: Missing cached shader map for material OrangeMaterial, compiling. 
+[2017.10.25-21.40.11:810][738]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.10.25-21.40.14:194][827]MaterialEditorStats: Base pass shader: 79 instructions
+[2017.10.25-21.40.14:194][827]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.10.25-21.40.14:194][827]MaterialEditorStats: Texture samplers: 3/16
+[2017.10.25-21.40.17:203][922]LogMaterial: Missing cached shader map for material OrangeMaterial, compiling. 
+[2017.10.25-21.40.17:262][922]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.10.25-21.40.19:795][999]MaterialEditorStats: Base pass shader: 79 instructions
+[2017.10.25-21.40.19:795][999]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.10.25-21.40.19:795][999]MaterialEditorStats: Texture samplers: 3/16
+[2017.10.25-21.40.22:487][ 86]LogMaterial: Missing cached shader map for material OrangeMaterial, compiling. 
+[2017.10.25-21.40.22:545][ 86]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.10.25-21.40.25:169][163]MaterialEditorStats: Base pass shader: 79 instructions
+[2017.10.25-21.40.25:169][163]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.10.25-21.40.25:169][163]MaterialEditorStats: Texture samplers: 3/16
+[2017.10.25-21.40.27:241][236]LogMaterial: Missing cached shader map for material OrangeMaterial, compiling. 
+[2017.10.25-21.40.27:297][236]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.10.25-21.40.29:880][314]MaterialEditorStats: Base pass shader: 79 instructions
+[2017.10.25-21.40.29:880][314]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.10.25-21.40.29:880][314]MaterialEditorStats: Texture samplers: 3/16
+[2017.10.25-21.40.30:823][361]LogMaterial: Missing cached shader map for material OrangeMaterial, compiling. 
+[2017.10.25-21.40.30:857][361]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.10.25-21.40.32:675][407]LogMaterialEditor: Saving and Compiling material OrangeMaterial
+[2017.10.25-21.40.34:260][407]LogMaterial: Missing cached shader map for material OrangeMaterial, compiling. 
+[2017.10.25-21.40.34:470][407]LogMaterial: Missing cached shader map for material OrangeMaterial, compiling. 
+[2017.10.25-21.40.34:720][407]LogMaterial: Missing cached shader map for material OrangeMaterial, compiling. 
+[2017.10.25-21.40.35:196][407]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy OrangeMaterial, compiling. 
+[2017.10.25-21.40.36:767][407]TextureStreamingBuild: Display: Compiling optional shaders took 1.594 seconds.
+[2017.10.25-21.40.43:437][407]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Subway/Material/OrangeMaterial" FILE="../../../../../../Users/Faranak/Desktop/FRazavi_LevelDesign1/Content/Subway/Material/OrangeMaterial.uasset" SILENT=true
+[2017.10.25-21.40.43:529][407]LogSavePackage: Save=57.18ms
+[2017.10.25-21.40.43:529][407]LogSavePackage: Moving '../../../../../../Users/Faranak/Desktop/FRazavi_LevelDesign1/Saved/OrangeMaterial2B47D14E4A2A4D359BEEA1A7885C8C46.tmp' to '../../../../../../Users/Faranak/Desktop/FRazavi_LevelDesign1/Content/Subway/Material/OrangeMaterial.uasset'
+[2017.10.25-21.40.43:544][407]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Faranak/Desktop/FRazavi_LevelDesign1/Content/Subway/Material/OrangeMaterial.uasset
+[2017.10.25-21.40.43:584][407]MaterialEditorStats: Base pass shader: 79 instructions
+[2017.10.25-21.40.43:584][407]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.10.25-21.40.43:584][407]MaterialEditorStats: Texture samplers: 3/16
+[2017.10.25-21.40.46:495][482]LogMaterialEditor: Saving and Compiling material OrangeMaterial
+[2017.10.25-21.40.46:568][482]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Subway/Material/OrangeMaterial" FILE="../../../../../../Users/Faranak/Desktop/FRazavi_LevelDesign1/Content/Subway/Material/OrangeMaterial.uasset" SILENT=true
+[2017.10.25-21.40.46:606][482]LogSavePackage: Save=23.96ms
+[2017.10.25-21.40.46:606][482]LogSavePackage: Moving '../../../../../../Users/Faranak/Desktop/FRazavi_LevelDesign1/Saved/OrangeMaterial70EE9C704D329BC24E10BAA24A0FEB46.tmp' to '../../../../../../Users/Faranak/Desktop/FRazavi_LevelDesign1/Content/Subway/Material/OrangeMaterial.uasset'
+[2017.10.25-21.40.46:611][482]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Faranak/Desktop/FRazavi_LevelDesign1/Content/Subway/Material/OrangeMaterial.uasset
+[2017.10.25-21.40.57:324][741]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BartGate-Middle-L)
+[2017.10.25-21.41.56:505][820]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Subway/IGC/MiddleGate" FILE="../../../../../../Users/Faranak/Desktop/FRazavi_LevelDesign1/Content/Subway/IGC/MiddleGate.uasset" SILENT=true
+[2017.10.25-21.41.56:550][820]LogSavePackage: Save=36.05ms
+[2017.10.25-21.41.56:550][820]LogSavePackage: Moving '../../../../../../Users/Faranak/Desktop/FRazavi_LevelDesign1/Saved/MiddleGateA91A15D1471D863D932E48A86864E61C.tmp' to '../../../../../../Users/Faranak/Desktop/FRazavi_LevelDesign1/Content/Subway/IGC/MiddleGate.uasset'
+[2017.10.25-21.41.56:573][820]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Faranak/Desktop/FRazavi_LevelDesign1/Content/Subway/IGC/MiddleGate.uasset
+[2017.10.25-21.42.20:681][584]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BartGate-Middle-R)
+[2017.10.25-21.43.12:106][184]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Subway/IGC/MiddleGate" FILE="../../../../../../Users/Faranak/Desktop/FRazavi_LevelDesign1/Content/Subway/IGC/MiddleGate.uasset" SILENT=true
+[2017.10.25-21.43.12:192][184]LogSavePackage: Save=53.08ms
+[2017.10.25-21.43.12:192][184]LogSavePackage: Moving '../../../../../../Users/Faranak/Desktop/FRazavi_LevelDesign1/Saved/MiddleGate01A0584E4ADD875C5721AE97004DC6AA.tmp' to '../../../../../../Users/Faranak/Desktop/FRazavi_LevelDesign1/Content/Subway/IGC/MiddleGate.uasset'
+[2017.10.25-21.43.12:204][184]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Faranak/Desktop/FRazavi_LevelDesign1/Content/Subway/IGC/MiddleGate.uasset
+[2017.10.25-21.43.30:807][365]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Subway/IGC/LeftGate" FILE="../../../../../../Users/Faranak/Desktop/FRazavi_LevelDesign1/Content/Subway/IGC/LeftGate.uasset" SILENT=true
+[2017.10.25-21.43.30:854][365]LogSavePackage: Save=39.85ms
+[2017.10.25-21.43.30:854][365]LogSavePackage: Moving '../../../../../../Users/Faranak/Desktop/FRazavi_LevelDesign1/Saved/LeftGate5432E04645AB2D92F127C4822DE8A010.tmp' to '../../../../../../Users/Faranak/Desktop/FRazavi_LevelDesign1/Content/Subway/IGC/LeftGate.uasset'
+[2017.10.25-21.43.30:866][365]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Faranak/Desktop/FRazavi_LevelDesign1/Content/Subway/IGC/LeftGate.uasset
+[2017.10.25-21.43.50:065][461]LogSavePackage: Save=14320.31ms
+[2017.10.25-21.43.50:065][461]LogSavePackage: Moving '../../../../../../Users/Faranak/Desktop/FRazavi_LevelDesign1/Saved/ThirdPersonExampleMap_Auto27E71E46F4C5756E767D04EACD12DCC15.tmp' to '../../../../../../Users/Faranak/Desktop/FRazavi_LevelDesign1/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto2.umap'
+[2017.10.25-21.43.50:078][461]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Faranak/Desktop/FRazavi_LevelDesign1/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto2.umap
+[2017.10.25-21.43.50:086][461]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 14.481
+[2017.10.25-21.43.50:087][461]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 14.481
+[2017.10.25-21.44.41:186][ 88]Cmd: TRANSACTION UNDO
+[2017.10.25-21.44.41:186][ 88]LogEditorTransaction: Undo Move Actors
+[2017.10.25-21.44.45:888][217]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BartGate-Left-L)
+[2017.10.25-21.46.01:808][641]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Subway/IGC/LeftGate" FILE="../../../../../../Users/Faranak/Desktop/FRazavi_LevelDesign1/Content/Subway/IGC/LeftGate.uasset" SILENT=true
+[2017.10.25-21.46.01:899][641]LogSavePackage: Save=57.95ms
+[2017.10.25-21.46.01:899][641]LogSavePackage: Moving '../../../../../../Users/Faranak/Desktop/FRazavi_LevelDesign1/Saved/LeftGate1B2B6DA94C9CB6386516FD98BB9F946E.tmp' to '../../../../../../Users/Faranak/Desktop/FRazavi_LevelDesign1/Content/Subway/IGC/LeftGate.uasset'
+[2017.10.25-21.46.01:910][641]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Faranak/Desktop/FRazavi_LevelDesign1/Content/Subway/IGC/LeftGate.uasset
+[2017.10.25-21.48.11:478][324]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Subway/IGC/RightGate" FILE="../../../../../../Users/Faranak/Desktop/FRazavi_LevelDesign1/Content/Subway/IGC/RightGate.uasset" SILENT=true
+[2017.10.25-21.48.11:525][324]LogSavePackage: Save=38.02ms
+[2017.10.25-21.48.11:525][324]LogSavePackage: Moving '../../../../../../Users/Faranak/Desktop/FRazavi_LevelDesign1/Saved/RightGate0E59D5154B542D9ACA89E78C18A889DC.tmp' to '../../../../../../Users/Faranak/Desktop/FRazavi_LevelDesign1/Content/Subway/IGC/RightGate.uasset'
+[2017.10.25-21.48.11:537][324]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Faranak/Desktop/FRazavi_LevelDesign1/Content/Subway/IGC/RightGate.uasset
+[2017.10.25-21.48.30:125][404]LogSavePackage: Save=14292.26ms
+[2017.10.25-21.48.30:125][404]LogSavePackage: Moving '../../../../../../Users/Faranak/Desktop/FRazavi_LevelDesign1/Saved/ThirdPersonExampleMap5D92BD234C248A8DAD0135AB0F626F33.tmp' to '../../../../../../Users/Faranak/Desktop/FRazavi_LevelDesign1/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2017.10.25-21.48.30:144][404]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Faranak/Desktop/FRazavi_LevelDesign1/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2017.10.25-21.48.30:304][404]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 14.822
+[2017.10.25-21.48.30:949][405]Cmd: QUIT_EDITOR
+[2017.10.25-21.48.31:614][405]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.10.25-21.48.31:614][405]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.10.25-21.48.31:681][405]LogExit: Preparing to exit.
+[2017.10.25-21.48.32:118][405]LogDirectoryWatcher: A directory notification for 'C:/Users/Faranak/Desktop/FRazavi_LevelDesign1/Content/' was aborted.
+[2017.10.25-21.48.32:204][405]LogExit: Editor shut down
+[2017.10.25-21.48.32:231][405]LogExit: Transaction tracking system shut down
+[2017.10.25-21.48.32:574][405]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.10.25-21.48.32:574][405]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Faranak/Desktop/FRazavi_LevelDesign1/Content/' was aborted.
+[2017.10.25-21.48.32:574][405]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.10.25-21.48.32:574][405]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2017.10.25-21.48.32:575][405]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2017.10.25-21.48.32:750][405]LogExit: Object subsystem successfully closed.
+[2017.10.25-21.48.32:783][405]LogD3D11RHI: Shutdown
+[2017.10.25-21.48.32:783][405]LogD3D11RHI: CleanupD3DDevice
+[2017.10.25-21.48.33:117][405]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.10.25-21.48.33:181][405]LogModuleManager: Shutting down and abandoning module MaterialEditor (540)
+[2017.10.25-21.48.33:181][405]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (538)
+[2017.10.25-21.48.33:181][405]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (536)
+[2017.10.25-21.48.33:181][405]LogModuleManager: Shutting down and abandoning module SequencerWidgets (534)
+[2017.10.25-21.48.33:181][405]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (532)
+[2017.10.25-21.48.33:181][405]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (530)
+[2017.10.25-21.48.33:181][405]LogModuleManager: Shutting down and abandoning module SceneOutliner (528)
+[2017.10.25-21.48.33:181][405]LogModuleManager: Shutting down and abandoning module AddContentDialog (526)
+[2017.10.25-21.48.33:182][405]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.17/FeaturePacks/' was aborted.
+[2017.10.25-21.48.33:185][405]LogModuleManager: Shutting down and abandoning module WidgetCarousel (525)
+[2017.10.25-21.48.33:186][405]LogModuleManager: Shutting down and abandoning module EditorWidgets (522)
+[2017.10.25-21.48.33:186][405]LogModuleManager: Shutting down and abandoning module CollectionManager (520)
+[2017.10.25-21.48.33:186][405]LogDirectoryWatcher: A directory notification for 'C:/Users/Faranak/Desktop/FRazavi_LevelDesign1/Content/Collections/' was aborted.
+[2017.10.25-21.48.33:186][405]LogDirectoryWatcher: A directory notification for 'C:/Users/Faranak/Desktop/FRazavi_LevelDesign1/Content/Developers/Faranak/Collections/' was aborted.
+[2017.10.25-21.48.33:186][405]LogDirectoryWatcher: A directory notification for 'C:/Users/Faranak/Desktop/FRazavi_LevelDesign1/Saved/Collections/' was aborted.
+[2017.10.25-21.48.33:186][405]LogModuleManager: Shutting down and abandoning module StatsViewer (518)
+[2017.10.25-21.48.33:187][405]LogModuleManager: Shutting down and abandoning module FoliageEdit (516)
+[2017.10.25-21.48.33:187][405]LogModuleManager: Shutting down and abandoning module LandscapeEditor (514)
+[2017.10.25-21.48.33:187][405]LogModuleManager: Shutting down and abandoning module MeshPaintMode (512)
+[2017.10.25-21.48.33:187][405]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (510)
+[2017.10.25-21.48.33:187][405]LogModuleManager: Shutting down and abandoning module ActorPickerMode (508)
+[2017.10.25-21.48.33:187][405]LogModuleManager: Shutting down and abandoning module GeometryMode (506)
+[2017.10.25-21.48.33:187][405]LogModuleManager: Shutting down and abandoning module TextureAlignMode (504)
+[2017.10.25-21.48.33:187][405]LogModuleManager: Shutting down and abandoning module BspMode (502)
+[2017.10.25-21.48.33:187][405]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (500)
+[2017.10.25-21.48.33:187][405]LogModuleManager: Shutting down and abandoning module HardwareSurvey (498)
+[2017.10.25-21.48.33:187][405]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (496)
+[2017.10.25-21.48.33:188][405]LogModuleManager: Shutting down and abandoning module AutomationWorker (494)
+[2017.10.25-21.48.33:188][405]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (492)
+[2017.10.25-21.48.33:188][405]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (490)
+[2017.10.25-21.48.33:188][405]LogModuleManager: Shutting down and abandoning module PlacementMode (489)
+[2017.10.25-21.48.33:188][405]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (486)
+[2017.10.25-21.48.33:188][405]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (484)
+[2017.10.25-21.48.33:188][405]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (482)
+[2017.10.25-21.48.33:188][405]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (480)
+[2017.10.25-21.48.33:188][405]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (478)
+[2017.10.25-21.48.33:188][405]LogModuleManager: Shutting down and abandoning module Media (477)
+[2017.10.25-21.48.33:188][405]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (474)
+[2017.10.25-21.48.33:188][405]LogModuleManager: Shutting down and abandoning module CharacterAI (472)
+[2017.10.25-21.48.33:188][405]LogModuleManager: Shutting down and abandoning module AudioCapture (470)
+[2017.10.25-21.48.33:189][405]LogModuleManager: Shutting down and abandoning module SequenceRecorder (469)
+[2017.10.25-21.48.33:189][405]LogModuleManager: Shutting down and abandoning module SmartSnapping (466)
+[2017.10.25-21.48.33:189][405]LogModuleManager: Shutting down and abandoning module SessionServices (464)
+[2017.10.25-21.48.33:189][405]LogModuleManager: Shutting down and abandoning module ViewportSnapping (462)
+[2017.10.25-21.48.33:189][405]LogModuleManager: Shutting down and abandoning module ViewportInteraction (460)
+[2017.10.25-21.48.33:189][405]LogModuleManager: Shutting down and abandoning module ClothPainter (458)
+[2017.10.25-21.48.33:189][405]LogModuleManager: Shutting down and abandoning module LogVisualizer (456)
+[2017.10.25-21.48.33:189][405]LogModuleManager: Shutting down and abandoning module IntroTutorials (454)
+[2017.10.25-21.48.33:189][405]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (453)
+[2017.10.25-21.48.33:189][405]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (450)
+[2017.10.25-21.48.33:190][405]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (448)
+[2017.10.25-21.48.33:190][405]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (446)
+[2017.10.25-21.48.33:190][405]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (445)
+[2017.10.25-21.48.34:091][405]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (442)
+[2017.10.25-21.48.34:091][405]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (440)
+[2017.10.25-21.48.34:091][405]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (438)
+[2017.10.25-21.48.34:091][405]LogModuleManager: Shutting down and abandoning module InputBindingEditor (436)
+[2017.10.25-21.48.34:091][405]LogModuleManager: Shutting down and abandoning module MergeActors (434)
+[2017.10.25-21.48.34:092][405]LogModuleManager: Shutting down and abandoning module SizeMap (432)
+[2017.10.25-21.48.34:092][405]LogModuleManager: Shutting down and abandoning module TreeMap (430)
+[2017.10.25-21.48.34:092][405]LogModuleManager: Shutting down and abandoning module ReferenceViewer (428)
+[2017.10.25-21.48.34:092][405]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (426)
+[2017.10.25-21.48.34:092][405]LogModuleManager: Shutting down and abandoning module LocalizationService (425)
+[2017.10.25-21.48.34:092][405]LogModuleManager: Shutting down and abandoning module HardwareTargeting (422)
+[2017.10.25-21.48.34:092][405]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (420)
+[2017.10.25-21.48.34:092][405]LogModuleManager: Shutting down and abandoning module UndoHistory (418)
+[2017.10.25-21.48.34:092][405]LogModuleManager: Shutting down and abandoning module XmlParser (416)
+[2017.10.25-21.48.34:092][405]LogModuleManager: Shutting down and abandoning module Blutility (414)
+[2017.10.25-21.48.34:092][405]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (412)
+[2017.10.25-21.48.34:092][405]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (411)
+[2017.10.25-21.48.34:093][405]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (408)
+[2017.10.25-21.48.34:093][405]LogModuleManager: Shutting down and abandoning module SettingsEditor (406)
+[2017.10.25-21.48.34:093][405]LogModuleManager: Shutting down and abandoning module ProjectLauncher (404)
+[2017.10.25-21.48.34:093][405]LogModuleManager: Shutting down and abandoning module SessionFrontend (402)
+[2017.10.25-21.48.34:093][405]LogModuleManager: Shutting down and abandoning module ProfilerClient (400)
+[2017.10.25-21.48.34:093][405]LogModuleManager: Shutting down and abandoning module DeviceManager (398)
+[2017.10.25-21.48.34:093][405]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (397)
+[2017.10.25-21.48.34:156][405]LogModuleManager: Shutting down and abandoning module AutomationController (394)
+[2017.10.25-21.48.34:156][405]LogModuleManager: Shutting down and abandoning module AutomationWindow (392)
+[2017.10.25-21.48.34:156][405]LogModuleManager: Shutting down and abandoning module Layers (390)
+[2017.10.25-21.48.34:156][405]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (388)
+[2017.10.25-21.48.34:156][405]LogModuleManager: Shutting down and abandoning module DetailCustomizations (386)
+[2017.10.25-21.48.34:156][405]LogModuleManager: Shutting down and abandoning module PackagesDialog (384)
+[2017.10.25-21.48.34:157][405]LogModuleManager: Shutting down and abandoning module Persona (382)
+[2017.10.25-21.48.34:157][405]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (381)
+[2017.10.25-21.48.34:157][405]LogModuleManager: Shutting down and abandoning module AnimGraph (379)
+[2017.10.25-21.48.34:157][405]LogModuleManager: Shutting down and abandoning module Kismet (376)
+[2017.10.25-21.48.34:160][405]LogModuleManager: Shutting down and abandoning module ClassViewer (374)
+[2017.10.25-21.48.34:160][405]LogModuleManager: Shutting down and abandoning module Toolbox (372)
+[2017.10.25-21.48.34:160][405]LogModuleManager: Shutting down and abandoning module ModuleUI (370)
+[2017.10.25-21.48.34:160][405]LogModuleManager: Shutting down and abandoning module MovieSceneTools (368)
+[2017.10.25-21.48.34:161][405]LogModuleManager: Shutting down and abandoning module OutputLog (366)
+[2017.10.25-21.48.34:161][405]LogModuleManager: Shutting down and abandoning module GammaUI (364)
+[2017.10.25-21.48.34:161][405]LogModuleManager: Shutting down and abandoning module Documentation (362)
+[2017.10.25-21.48.34:161][405]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (360)
+[2017.10.25-21.48.34:161][405]LogModuleManager: Shutting down and abandoning module MovieScene (358)
+[2017.10.25-21.48.34:161][405]LogModuleManager: Shutting down and abandoning module Niagara (356)
+[2017.10.25-21.48.34:161][405]LogModuleManager: Shutting down and abandoning module NiagaraEditor (355)
+[2017.10.25-21.48.34:161][405]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (352)
+[2017.10.25-21.48.34:161][405]LogModuleManager: Shutting down and abandoning module LauncherPlatform (350)
+[2017.10.25-21.48.34:161][405]LogModuleManager: Shutting down and abandoning module AnalyticsET (348)
+[2017.10.25-21.48.34:161][405]LogModuleManager: Shutting down and abandoning module PortalServices (346)
+[2017.10.25-21.48.34:162][405]LogModuleManager: Shutting down and abandoning module PortalRpc (344)
+[2017.10.25-21.48.34:162][405]LogModuleManager: Shutting down and abandoning module MessagingRpc (342)
+[2017.10.25-21.48.34:162][405]LogModuleManager: Shutting down and abandoning module AIModule (340)
+[2017.10.25-21.48.34:162][405]LogModuleManager: Shutting down and abandoning module GameplayDebugger (339)
+[2017.10.25-21.48.34:162][405]LogModuleManager: Shutting down and abandoning module AITestSuite (337)
+[2017.10.25-21.48.34:162][405]LogModuleManager: Shutting down and abandoning module ProfilerService (334)
+[2017.10.25-21.48.34:296][405]LogModuleManager: Shutting down and abandoning module TaskGraph (332)
+[2017.10.25-21.48.34:296][405]LogModuleManager: Shutting down and abandoning module SteamVRController (330)
+[2017.10.25-21.48.34:296][405]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (328)
+[2017.10.25-21.48.34:296][405]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (326)
+[2017.10.25-21.48.34:296][405]LogModuleManager: Shutting down and abandoning module OculusInput (324)
+[2017.10.25-21.48.34:297][405]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (322)
+[2017.10.25-21.48.34:297][405]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (320)
+[2017.10.25-21.48.34:297][405]LogModuleManager: Shutting down and abandoning module CableComponent (318)
+[2017.10.25-21.48.34:297][405]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (316)
+[2017.10.25-21.48.34:297][405]LogModuleManager: Shutting down and abandoning module AndroidPermission (314)
+[2017.10.25-21.48.34:297][405]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (310)
+[2017.10.25-21.48.34:297][405]LogModuleManager: Shutting down and abandoning module HTML5Networking (308)
+[2017.10.25-21.48.34:297][405]LogModuleManager: Shutting down and abandoning module AlembicImporter (306)
+[2017.10.25-21.48.34:297][405]LogModuleManager: Shutting down and abandoning module AlembicLibrary (305)
+[2017.10.25-21.48.34:297][405]LogModuleManager: Shutting down and abandoning module GeometryCache (304)
+[2017.10.25-21.48.34:297][405]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (303)
+[2017.10.25-21.48.34:297][405]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (298)
+[2017.10.25-21.48.34:297][405]LogModuleManager: Shutting down and abandoning module PluginBrowser (296)
+[2017.10.25-21.48.34:298][405]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (294)
+[2017.10.25-21.48.34:298][405]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (292)
+[2017.10.25-21.48.34:298][405]LogModuleManager: Shutting down and abandoning module DesktopPlatform (291)
+[2017.10.25-21.48.34:298][405]LogModuleManager: Shutting down and abandoning module UObjectPlugin (288)
+[2017.10.25-21.48.34:298][405]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (286)
+[2017.10.25-21.48.34:298][405]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (284)
+[2017.10.25-21.48.34:298][405]LogModuleManager: Shutting down and abandoning module GitSourceControl (282)
+[2017.10.25-21.48.34:298][405]LogModuleManager: Shutting down and abandoning module SourceControl (281)
+[2017.10.25-21.48.34:299][405]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (278)
+[2017.10.25-21.48.34:299][405]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (276)
+[2017.10.25-21.48.34:299][405]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (274)
+[2017.10.25-21.48.34:299][405]LogModuleManager: Shutting down and abandoning module Paper2DEditor (272)
+[2017.10.25-21.48.34:299][405]LogModuleManager: Shutting down and abandoning module MeshPaint (271)
+[2017.10.25-21.48.34:299][405]LogModuleManager: Shutting down and abandoning module LevelEditor (269)
+[2017.10.25-21.48.34:301][405]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (268)
+[2017.10.25-21.48.34:301][405]LogModuleManager: Shutting down and abandoning module MainFrame (266)
+[2017.10.25-21.48.34:302][405]LogModuleManager: Shutting down and abandoning module HotReload (265)
+[2017.10.25-21.48.34:303][405]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (260)
+[2017.10.25-21.48.34:303][405]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (258)
+[2017.10.25-21.48.34:304][405]LogModuleManager: Shutting down and abandoning module PhysXVehicles (256)
+[2017.10.25-21.48.34:304][405]LogModuleManager: Shutting down and abandoning module OculusEditor (254)
+[2017.10.25-21.48.34:304][405]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (252)
+[2017.10.25-21.48.34:304][405]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (250)
+[2017.10.25-21.48.34:304][405]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (248)
+[2017.10.25-21.48.34:304][405]LogModuleManager: Shutting down and abandoning module UdpMessaging (246)
+[2017.10.25-21.48.34:404][405]LogModuleManager: Shutting down and abandoning module TcpMessaging (244)
+[2017.10.25-21.48.34:506][405]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (242)
+[2017.10.25-21.48.34:506][405]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (240)
+[2017.10.25-21.48.34:506][405]LogModuleManager: Shutting down and abandoning module FacialAnimation (238)
+[2017.10.25-21.48.34:506][405]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (236)
+[2017.10.25-21.48.34:506][405]LogModuleManager: Shutting down and abandoning module GraphEditor (235)
+[2017.10.25-21.48.34:506][405]LogModuleManager: Shutting down and abandoning module ContentBrowser (233)
+[2017.10.25-21.48.34:510][405]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (230)
+[2017.10.25-21.48.34:510][405]LogModuleManager: Shutting down and abandoning module Paper2D (228)
+[2017.10.25-21.48.34:510][405]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (226)
+[2017.10.25-21.48.34:510][405]LogModuleManager: Shutting down and abandoning module WmfMedia (224)
+[2017.10.25-21.48.34:510][405]LogModuleManager: Shutting down and abandoning module PacketHandler (222)
+[2017.10.25-21.48.34:510][405]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (220)
+[2017.10.25-21.48.34:510][405]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (218)
+[2017.10.25-21.48.34:510][405]LogModuleManager: Shutting down and abandoning module Overlay (216)
+[2017.10.25-21.48.34:510][405]LogModuleManager: Shutting down and abandoning module OverlayEditor (215)
+[2017.10.25-21.48.34:510][405]LogModuleManager: Shutting down and abandoning module MediaAssets (212)
+[2017.10.25-21.48.34:511][405]LogModuleManager: Shutting down and abandoning module VREditor (210)
+[2017.10.25-21.48.34:511][405]LogModuleManager: Shutting down and abandoning module StringTableEditor (208)
+[2017.10.25-21.48.34:511][405]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (206)
+[2017.10.25-21.48.34:511][405]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (204)
+[2017.10.25-21.48.34:511][405]LogModuleManager: Shutting down and abandoning module FunctionalTesting (202)
+[2017.10.25-21.48.34:511][405]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (200)
+[2017.10.25-21.48.34:511][405]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (199)
+[2017.10.25-21.48.34:511][405]LogModuleManager: Shutting down and abandoning module UMG (196)
+[2017.10.25-21.48.34:511][405]LogModuleManager: Shutting down and abandoning module UMGEditor (195)
+[2017.10.25-21.48.34:511][405]LogModuleManager: Shutting down and abandoning module Sequencer (194)
+[2017.10.25-21.48.34:512][405]LogModuleManager: Shutting down and abandoning module MessageLog (191)
+[2017.10.25-21.48.34:512][405]LogModuleManager: Shutting down and abandoning module SlateReflector (186)
+[2017.10.25-21.48.34:512][405]LogModuleManager: Shutting down and abandoning module Slate (184)
+[2017.10.25-21.48.34:512][405]LogModuleManager: Shutting down and abandoning module EditorStyle (182)
+[2017.10.25-21.48.34:520][405]LogModuleManager: Shutting down and abandoning module MRMesh (180)
+[2017.10.25-21.48.34:520][405]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (178)
+[2017.10.25-21.48.34:521][405]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (176)
+[2017.10.25-21.48.34:521][405]LogModuleManager: Shutting down and abandoning module XAudio2 (174)
+[2017.10.25-21.48.34:521][405]LogModuleManager: Shutting down and abandoning module Networking (172)
+[2017.10.25-21.48.34:521][405]LogModuleManager: Shutting down and abandoning module Core (168)
+[2017.10.25-21.48.34:521][405]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2017.10.25-21.48.34:521][405]LogModuleManager: Shutting down and abandoning module LevelSequence (162)
+[2017.10.25-21.48.34:521][405]LogModuleManager: Shutting down and abandoning module MeshUtilities (160)
+[2017.10.25-21.48.34:521][405]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (159)
+[2017.10.25-21.48.34:521][405]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (158)
+[2017.10.25-21.48.34:521][405]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (157)
+[2017.10.25-21.48.34:521][405]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (155)
+[2017.10.25-21.48.34:521][405]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (153)
+[2017.10.25-21.48.34:521][405]LogModuleManager: Shutting down and abandoning module MaterialBaking (149)
+[2017.10.25-21.48.34:522][405]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (146)
+[2017.10.25-21.48.34:525][405]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.10.25-21.48.34:587][405]LogDerivedDataCache: Shutdown
+[2017.10.25-21.48.34:587][405]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.10.25-21.48.34:587][405]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.10.25-21.48.34:587][405]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.10.25-21.48.34:587][405]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.10.25-21.48.34:587][405]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.10.25-21.48.34:587][405]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.10.25-21.48.34:587][405]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.10.25-21.48.34:587][405]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.10.25-21.48.34:587][405]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.10.25-21.48.34:587][405]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.10.25-21.48.34:588][405]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.10.25-21.48.34:588][405]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.10.25-21.48.34:588][405]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.10.25-21.48.34:588][405]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.10.25-21.48.34:588][405]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.10.25-21.48.34:588][405]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.10.25-21.48.34:588][405]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.10.25-21.48.34:588][405]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.10.25-21.48.34:588][405]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.10.25-21.48.34:588][405]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.10.25-21.48.34:588][405]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.10.25-21.48.34:588][405]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.10.25-21.48.34:588][405]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.10.25-21.48.34:588][405]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.10.25-21.48.34:588][405]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.10.25-21.48.34:588][405]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.10.25-21.48.34:589][405]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.10.25-21.48.34:589][405]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.10.25-21.48.34:589][405]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.10.25-21.48.34:589][405]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.10.25-21.48.34:589][405]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.10.25-21.48.34:589][405]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.10.25-21.48.34:589][405]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.10.25-21.48.34:589][405]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.10.25-21.48.34:589][405]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.10.25-21.48.34:589][405]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.10.25-21.48.34:589][405]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.10.25-21.48.34:589][405]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.10.25-21.48.34:589][405]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.10.25-21.48.34:589][405]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.10.25-21.48.34:589][405]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.10.25-21.48.34:589][405]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.10.25-21.48.34:589][405]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.10.25-21.48.34:589][405]LogModuleManager: Shutting down and abandoning module PhysXCooking (56)
+[2017.10.25-21.48.34:590][405]LogModuleManager: Shutting down and abandoning module SteamVR (54)
+[2017.10.25-21.48.34:590][405]LogModuleManager: Shutting down and abandoning module OculusHMD (52)
+[2017.10.25-21.48.34:590][405]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.10.25-21.48.34:590][405]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.10.25-21.48.34:590][405]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.10.25-21.48.34:590][405]LogOnline: Display: Unloading online subsystem: NULL
+[2017.10.25-21.48.34:590][405]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.10.25-21.48.34:590][405]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.10.25-21.48.34:590][405]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.10.25-21.48.34:590][405]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B4B37D506-40C3-2FF2-1A87-2C8CC25BB540%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.2-3658906%2B%2B%2BUE4%2BRelease-4.17&UserID=4a9090a145fd0287ad2ec4a62a8fb4cc%7C01a7b7c22aef419f924e6120a094e671%7C19104614-d73b-401c-82fd-0a81808f2f01&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.10.25-21.48.34:625][405]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.10.25-21.48.34:629][405]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2017.10.25-21.48.34:629][405]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2017.10.25-21.48.34:629][405]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2017.10.25-21.48.34:629][405]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2017.10.25-21.48.34:630][405]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2017.10.25-21.48.34:630][405]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2017.10.25-21.48.34:630][405]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2017.10.25-21.48.34:632][405]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2017.10.25-21.48.34:632][405]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2017.10.25-21.48.34:633][405]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2017.10.25-21.48.34:633][405]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2017.10.25-21.48.34:633][405]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2017.10.25-21.48.34:633][405]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2017.10.25-21.48.34:633][405]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2017.10.25-21.48.34:633][405]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2017.10.25-21.48.34:633][405]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.10.25-21.48.34:633][405]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.10.25-21.48.34:633][405]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.10.25-21.48.34:643][405]LogExit: Exiting.
+[2017.10.25-21.48.34:694][405]Log file closed, 10/25/17 14:48:34
